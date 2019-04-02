@@ -282,9 +282,7 @@ article ul.BOX li a{
 	padding-bottom:100%;	
 }
 
-article ul.BOX li a.PIC_MUSIC{
-	background-image:url(../images/music_bw.jpg);
-}
+
 
 article ul.BOX li a.PIC_PORTFOLIO{
 	background-image:url(../images/twin_sign_bw.jpg);
@@ -378,6 +376,25 @@ article ul.GOODS li a{
 
 article ul.GOODS li a:hover{
 }
+
+article ul.GOODS li a.PIC_ARTSHOW{
+	padding-bottom:100%;
+	background-image:url(../images/idea_art_show.png);
+	transition:all 0.3s ease-out;
+
+}
+
+article ul.GOODS li a.PIC_ARTSHOW:hover{
+	width:101%;
+	height:101%;
+	transform:translate(0px,-5px);
+	padding-bottom:100%;
+	background-image:url(../images/idea_art_show_hover.png);	
+	background-color: rgba(15,99,106,0.5); 
+	border-radius:50%;
+
+}
+
 
 article ul.GOODS li a.PIC_MUSIC{
 	padding-bottom:100%;
@@ -717,6 +734,8 @@ footer p#FOOTER_TEXT{
 	padding-bottom: 120px;
 }
 
+
+
 .INSIDE_PAGE_LAYOUT_3 .IMG_UI{
 	margin: 0px auto;
 	width: 250px;
@@ -982,9 +1001,6 @@ article ul.BOX li a{
 	padding-bottom:100%;	
 }
 
-article ul.BOX li a.PIC_MUSIC{
-	background-image:url(../images/music_bw.jpg);
-}
 
 article ul.BOX li a.PIC_PORTFOLIO{
 	background-image:url(../images/twin_sign_bw.jpg);
@@ -1078,7 +1094,44 @@ article ul.GOODS li a:hover{
 
 }
 
+article ul.GOODS li a.PIC_ARTSHOW{
+	padding-bottom:100%;
+	background-image:url(../images/idea_art_show_m.png);
+	transition:all 0.3s ease-out;
 
+}
+
+article ul.GOODS li a.PIC_ARTSHOW:hover{
+	width:101%;
+	height:101%;
+	transform:translate(0px,-5px);
+	padding-bottom:100%;
+	background-image:url(../images/idea_art_show_hover_m.png);	
+	background-color: rgba(15,99,106,0.5); 
+	border-radius:50%;
+
+}
+	
+	
+	
+article ul.GOODS li a.PIC_MUSIC{
+	padding-bottom:100%;
+	background-image:url(../images/idea_music_m.png);
+	transition:all 0.3s ease-out;
+
+}
+
+article ul.GOODS li a.PIC_MUSIC:hover{
+	width:101%;
+	height:101%;
+	transform:translate(0px,-5px);
+	padding-bottom:100%;
+	background-image:url(../images/idea_music_hover_m.png);	
+	background-color: rgba(15,99,106,0.5); 
+	border-radius:50%;
+
+}
+	
 article ul.GOODS li a.PIC_WATERINK{
 	padding-bottom:100%;
 	background-image:url(../images/idea_ink_orchid_m.png);
@@ -1618,9 +1671,7 @@ article ul.BOX li a{
 	padding-bottom:100%;	
 }
 
-article ul.BOX li a.PIC_MUSIC{
-	background-image:url(../images/music_bw.jpg);
-}
+
 
 article ul.BOX li a.PIC_PORTFOLIO{
 	background-image:url(../images/twin_sign_bw.jpg);
@@ -1716,8 +1767,46 @@ article ul.GOODS li a{
 
 article ul.GOODS li a:hover{
 }
+	
+	
+article ul.GOODS li a.PIC_ARTSHOW{
+	padding-bottom:100%;
+	background-image:url(../images/idea_art_show_t.png);
+	transition:all 0.3s ease-out;
 
+}
 
+article ul.GOODS li a.PIC_ARTSHOW:hover{
+	width:101%;
+	height:101%;
+	transform:translate(0px,-5px);
+	padding-bottom:100%;
+	background-image:url(../images/idea_art_show_hover_t.png);	
+	background-color: rgba(15,99,106,0.5); 
+	border-radius:50%;
+
+}
+	
+	
+
+article ul.GOODS li a.PIC_MUSIC{
+	padding-bottom:100%;
+	background-image:url(../images/idea_music_t.png);
+	transition:all 0.3s ease-out;
+
+}
+
+article ul.GOODS li a.PIC_MUSIC:hover{
+	width:101%;
+	height:101%;
+	transform:translate(0px,-5px);
+	padding-bottom:100%;
+	background-image:url(../images/idea_music_hover_t.png);	
+	background-color: rgba(15,99,106,0.5); 
+	border-radius:50%;
+
+}
+	
 article ul.GOODS li a.PIC_WATERINK{
 	padding-bottom:100%;
 	background-image:url(../images/idea_ink_orchid_t.png);
@@ -2015,6 +2104,8 @@ footer p#FOOTER_TEXT{
 	border-radius: 0px;
 	padding-bottom: 120px;
 }
+	
+
 
 .INSIDE_PAGE_LAYOUT_3 .IMG_UI{
 	margin: 0px auto;
