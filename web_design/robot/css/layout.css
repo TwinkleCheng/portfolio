@@ -114,8 +114,8 @@ aside nav ul li{
 
 aside nav ul li a{
 	display:block;
-	width: 162px;
-	height: 52px;
+	width: 165px;
+	height: 55px;
 	color:#ffffff;
 	text-decoration:none;
 	font-size: 15px;
@@ -149,24 +149,45 @@ header img{
 	height: auto;
 }
 
+#lottie, #lottie_banner_robot{
+    width:100%;
+    height:100%;
+    display:block;
+    overflow: hidden;
+    transform: translate3d(0,0,0);
+    text-align: center;
+    opacity: 1;
+}
+
+#lottie_m, #lottie_banner_robot_m{
+    width:100%;
+    height:100%;
+    display:none;
+    overflow: hidden;
+    transform: translate3d(0,0,0);
+    text-align: center;
+    opacity: 1;
+}
+
+
 article{
 	padding:20px 10%;
+	
 }
 
 article nav{
-
 }
 
 article nav ul{
-	width: 90%;
-	height: 48px;
+	width: 100%;
 	margin: 0px auto;
+	
 }
 
 article nav ul li{
 	float: left;
 	width: 200px;
-	padding:10px;
+	padding:0px 10px 20px 10px;
 }
 
 
@@ -182,6 +203,7 @@ article nav ul li a{
 	background-color: #518287;
 	color: #FFFFFF;
 
+
 }
 
 article nav ul li a:hover{
@@ -190,7 +212,7 @@ article nav ul li a:hover{
 
 article section{
 	width: 100%;
-	margin:48px 0px 0px 0px;
+	margin:48px 0px;
 	clear: both;
 	padding-top: 40px;
 	text-align: center;
@@ -218,15 +240,15 @@ article section p{
 article section h3{
 	display: block;
 	width:180px;
-	height: 36px;
+	height: 48px;
 	font-size: 18px;
-	line-height:36px;
-	border-radius:36px;
+	line-height:48px;
+	border-radius:48px;
 	color: #FFFFFF;
 	font-weight: bold;
-	margin: 20px 0px 10px 0px;
+	margin: 25px 0px 15px 0px;
 	text-align: center;
-	background-color: #29abe2;
+	background-color: #2695e4;
 }
 
 article section .LIST_h3{
@@ -254,11 +276,11 @@ article section h3 a{
 article section h3 a:hover{
 	display: block;
 	width:180px;
-	height: 36px;
+	height: 48px;
 	font-size: 18px;
-	line-height:36px;
-	border-radius:36px;
-	color: #29abe2;
+	line-height:48px;
+	border-radius:48px;
+	color: #2695e4;
 	background-color: #FFFFFF;
 }
 
@@ -282,155 +304,177 @@ article section a:hover{
 }
 
 
-/*圖片上的連結*/
-
-.NEWS_0521{
-	max-width:600px;
-	height: auto;
-	position:relative;
-}
-
-a.NEWS_0521_b{
-	width:43.5%;
-	height:2%;
-	position: absolute;
-	top:95.9%;
-	left:17%;
-}
-
-.NEWS_0507{
-	max-width:450px;
-	height: auto;
-	position:relative;
-}
-
-a.NEWS_0507_b{
-	width:59%;
-	height:5%;
-	position: absolute;
-	top:87%;
-	left:21%;
-}
 
 
 
-/*開合效果*/
-
-dl.faqlist {
-	margin-bottom:20px;
-}
-	
-dl.faqlist dt {
-	background: url(../images/list_but.svg) 30px 19px no-repeat;
-	background-size: 14px auto;
-	background-color: #518287;
-	cursor: pointer;
-	color: #FFFFFF;
-	font-size: 18px;
-	line-height: 32px;
-	padding: 10px 56px;
-	margin-bottom: 10px;
-	text-align: left;
-	
-}
-
-dl.faqlist dt:hover {
-	background-color: #284242;
-}
-
-dl.faqlist dd {
-	display: none;
-	margin-bottom: 10px;
-	margin-top: -10px;
-	font-size: 15px;
-	color: #595959;
-	background: #FFFFFF;
-	padding: 14px 40px 40px 40px;
-	line-height: 20px;
-	text-indent: 0px;
-	text-align: justify;
-}
-
-dl.faqlist dd:before {
-	content: "A: ";
-}
-dl.faqlist ol {
-	margin-bottom: 5px;
-}
-dl.faqlist ol li {
-	text-indent: 0;
-}
-
-dl.faqlist dd.NO_A:before {
-	content: "　";
-}
-dl.faqlist dd.NO_A h4{
+/*開合效果NEW*/
+ .qalist .sub{
 	font-size:20px;
-	line-height:32px;
-	margin:0 12px 10px 22px;
-	padding:0 0 5px 10px;
-	border-bottom:#999 1px dashed;
+	padding:16px 20px;
+	position:relative;
+	text-align: left;
 }
 
-dl.faqlist dd.NO_A p{
-	font-size: 18px;
-	line-height: 32px;
+ .qalist .sub .no_num{
+	display:inline-block;
+	border-radius:50%;
+	background:#931e12;
+	width:10px;
+	height:10px;
+	vertical-align:middle;
+	margin-left: 15px;
+	margin-right: 5px;
 }
 
-dl.faqlist dd.NO_A a{
-	color: #29abe2;
+ .qalist .sub .num{
+	text-align:center;
+	display:inline-block;
+	border-radius:50%;
+	background:#931e12;
+	width:43px;
+	height:43px;
+	font-size:0;
+	vertical-align:middle;
+}
+
+ .qalist .sub .num:after{
+	content:"";
+	display:inline-block;
+	width:0;
+	height:100%;
+	vertical-align:middle;
+}
+
+ .qalist .sub .num span{
+	display:inline-block;
+	font-size:18px;
+	color:#fff;
+	font-weight:bold;
+	vertical-align:middle;
+}
+
+ .qalist .sub p{
+	display:inline-block;
+	font-size:20px;
+	color:#fff;
+	font-weight:bold;
+	vertical-align:middle;
+	padding-left:8px;
+	line-height:1.5;
+	text-align: left;
+	letter-spacing:2px;
+	width:87%;
+}
+
+ .qalist .sub .ar{
+	width:25px;
+	position:absolute;
+	top:22px;
+	right:20px;
+	-webkit-transition:all .3s ease;
+	-o-transition:all .3s ease;
+	transition:all .3s ease;
+}
+
+ .qalist .sub .no_num_ar{
+	width:25px;
+	position:absolute;
+	top:20px;
+	right:24px;
+	-webkit-transition:all .3s ease;
+	-o-transition:all .3s ease;
+	transition:all .3s ease;
+}
+
+
+ .inner{
+	background:#284242;
+	padding:50px;
+	border-radius: 15px;
+}
+
+ .qalist dd{
+	margin-bottom: 20px;
+	background:#518287;
+	border-radius:10px;
+	cursor:pointer;
+}
+
+ .qalist dd:hover{
+	background:rgba(81,130,135,0.4);
+}
+
+ .qalist dd.isopen .ar, .qalist dd.isopen .no_num_ar{
+	-webkit-transform:rotate(-180deg);
+	-ms-transform:rotate(-180deg);
+	transform:rotate(-180deg);
+	-webkit-transition:all .3s ease;
+	-o-transition:all .3s ease;
+	transition:all .3s ease;
+}
+
+ .qalist .box{
+	background:#fff;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	font-size:16px;
+	color:#010101;
+	line-height:1.8;
+	padding:15px 70px;
+	display:none;
+}
+
+ .qalist .box a{
+	display:inline;
+	text-decoration:none;
+	color: #931e12;
 	font-weight: bold;
 }
 
-dl.faqlist dd.NO_A a:hover{
+.qalist .box a:hover{
+	background-color:rgba(38,149,228,0.5);
 	
 }
 
-dl.faqlist ul {
-	padding: 6px 20px 10px 10px;
-	
+
+ .qalist .dotlist{
+	list-style:disc;
+	padding-left:20px;
 }
 
-dl.faqlist ul li {
-	list-style:none;
-	color: #284242;
-    font-size: 18px;
-    line-height: 32px;
-	margin:0px 12px 0px 16px;
-}
-
-dl.faqlist ul li ul {
-	margin-top: -39px;
-}
-
-dl.faqlist ul li ul li{
-	padding-left:64px;
-}
-
-dl.faqlist ul li ul li a{
-	color: #29abe2;
-	background-color:#FFFFFF;
-	text-decoration: underline;
-}
-
-dl.faqlist ul li ul li a:hover{
-	background-color: rgba(133,228,237,0.4);
-	border-radius: 5px;
+.qalist .dotlist a{
+	background: #fff;
 }
 
 
+/*開合效果NEW-END*/
 
-/*開合效果END*/
+/*圖片上的連結*/
+.NEWS_0521 img{
+	max-width:600px;
+	width: 100%;
+	height: auto;
+}
+
+.NEWS_0507 img{
+	max-width:450px;
+	width: 100%;
+	height: auto;
+}
+
+/*圖片上的連結-END*/
+
+
 
 /*表格*/
 
 table.TB_TIMELINE {
 	border-collapse:collapse;
-	border:2px double #29abe2;
+	border:2px double #2695e4;
 	margin-bottom:20px;
 	line-height:24px;
 	font-size:15px;
-	background-color:rgba(255,255,255,0.6);
+	background-color:rgba(255,255,255,0.5);
 	font-weight:bold;
 }
 
@@ -440,37 +484,37 @@ table.TB_TIMELINE caption {
 	line-height:24px;
 	font-weight:bold;
 	padding-bottom:5px;
-	text-align:center;
+	text-align: center;
 	color:#284242;
 }
 
 table.TB_TIMELINE th, table.TB_TIMELINE td {
-	border:1px solid #29abe2;
+	border:1px solid #2695e4;
 	padding:10px 8px;
 	text-align:center;
 	vertical-align:middle;
 }
 table.TB_TIMELINE th {
 	font-weight:bold;
-	background-color: #29abe2;
+	background-color: #2695e4;
 	color: #FFFFFF;
 	border:1px solid #FFFFFF;
 }
 
 .TEXT_RED{
-	color:#e90000;
+	color:#931e12;
 	font-weight: bold;
 }
 .TEXT_BOLD{
 	font-weight: bold;
 }
 .TEXT_RED2{
-	color:#e90000;
+	color:#931e12;
 	font-weight: bold;
 	font-size: 16px
 }
 .TEXT_GREEN{
-	color: #419c1a;
+	color: #4f7b0f;
 	font-weight: bold;
 }
 
@@ -497,12 +541,12 @@ article section ul li ul li{
 article section ul li a{
 	text-decoration: none;
 	color: #ffffff;
-	background-color: #29abe2;
+	background-color: #2695e4;
 	border-radius: 0px;
 }
 
 article section ul li a:hover{
-	color: #29abe2;
+	color: #2695e4;
 	background-color:#ffffff;
 	border-radius: 0px;
 }
@@ -528,7 +572,96 @@ article section ul li a:hover{
 	cursor: pointer;
 }
 
+/* 以下為 首頁動畫特別版 */
+@media screen and (max-width: 1024px) {
+	
+#lottie, #lottie_banner_robot{
+    width:100%;
+    height:100%;
+    display:none;
+    overflow: hidden;
+    transform: translate3d(0,0,0);
+    text-align: center;
+    opacity: 1;
+}
 
+#lottie_m, #lottie_banner_robot_m{
+    width:100%;
+    height:100%;
+    display:block;
+    overflow: hidden;
+    transform: translate3d(0,0,0);
+    text-align: center;
+    opacity: 1;
+}
+	
+}
+
+/* 以下為 開合效果NEW特別版 */
+
+/*開合效果NEW*/
+@media screen and (min-width: 641px) and (max-width: 1200px) {
+
+ .qalist .sub{
+	padding:3vw 2vw;
+}
+
+ .qalist .sub .no_num{
+	width:2vw;
+	height:2vw;
+	vertical-align:middle;
+}
+		
+ .qalist .sub .num{
+	width:7vw;
+	height:7vw;
+	vertical-align:top;
+}
+	
+ .qalist .sub .num span{
+	font-size:3vw;
+}
+	
+ .qalist .sub p{
+	font-size:3vw;
+	width:70%;
+}
+	
+ .qalist .sub .ar{
+	width:3.5vw;
+	top:40%;
+	right:5%;
+}	
+	
+ .qalist .sub .no_num_ar{
+	width:4vw;
+	top:37%;
+	right:5%;
+}	
+		
+ .inner{
+	padding:7vw;
+	border-bottom-left-radius:1.5vw;
+	border-bottom-right-radius:1.5vw;
+}	
+	
+ .qalist dd{
+	border-radius:0.8vw;
+}	
+	
+ .qalist .box{
+	font-size:3.2vw;
+	padding:3vw 4vw;
+	border-bottom-left-radius:0.8vw;
+	border-bottom-right-radius:0.8vw;
+}	
+ .qalist .dotlist{
+	padding-left:5vw;
+}	
+	
+/*開合效果NEW-END*/
+
+}
 
 
 /* 以下為 手機版 */
@@ -634,8 +767,8 @@ span.AAA, span.BBB, span.CCC {
 
 .TOP_MENU nav ul li a{
 	display:block;
-	width: 162px;
-	height: 52px;
+	width: 165px;
+	height: 55px;
 	color:#ffffff;
 	text-decoration:none;
 	font-size: 15px;
@@ -735,116 +868,69 @@ article section .DOWNLOAD_h3 a:hover{
 	width:100%;
 }
 
-	
-	
-	
-	
-	
-/*開合效果*/
+/*開合效果NEW*/
 
-dl.faqlist {
-	margin-bottom:20px;
-}
-	
-dl.faqlist dt {
-	background: url(../images/list_but.svg) 30px 19px no-repeat;
-	background-size: 14px auto;
-	background-color: #518287;
-	cursor: pointer;
-	color: #FFFFFF;
-	font-size: 18px;
-	line-height: 32px;
-	padding: 10px 56px;
-	margin-bottom: 10px;
-	text-align: justify;
-}
-dl.faqlist dt:hover {
-	background-color: #284242;
-}
-dl.faqlist dd {
-	display: none;
-	margin-bottom: 10px;
-	margin-top: -10px;
-	font-size: 15px;
-	color: #595959;
-	background: #FFFFFF;
-	padding: 14px 40px 40px 40px;
-	line-height: 20px;
-	text-indent: 0px;
-	text-align: justify;
+.qalist .sub{
+	padding:3vw 2vw;
 }
 
-dl.faqlist dd:before {
-	content: "A: ";
+ .qalist .sub .no_num{
+	width:2vw;
+	height:2vw;
+	vertical-align:middle;
 }
-dl.faqlist ol {
-	margin-bottom: 5px;
-}
-dl.faqlist ol li {
-	text-indent: 0;
-}
-
-dl.faqlist dd.NO_A:before {
-	content: "　";
-}
-dl.faqlist dd.NO_A h4{
-	font-size:20px;
-	line-height:32px;
-	margin:0 12px 10px 22px;
-	padding:0 0 5px 10px;
-	border-bottom:#999 1px dashed;
-}
-
-
-dl.faqlist dd.NO_A p{
-	font-size: 18px;
-	line-height: 32px;
+		
+ .qalist .sub .num{
+	width:12vw;
+	height:12vw;
+	vertical-align:top;
 }
 	
-dl.faqlist dd.NO_A a{
-	color: #29abe2;
-	font-weight: bold;
+ .qalist .sub .num span{
+	font-size:4vw;
 }
-
-dl.faqlist dd.NO_A a:hover{
 	
+ .qalist .sub p{
+	font-size:5vw;
+	width:70%;
 }
+	
+ .qalist .sub .ar{
+	width:7vw;
+	top:40%;
+	right:5%;
+}	
+	
+ .qalist .sub .no_num_ar{
+	width:4vw;
+	top:37%;
+	right:5%;
+}	
+		
+ .inner{
+	padding:7vw;
+	border-bottom-left-radius:1.5vw;
+	border-bottom-right-radius:1.5vw;
+}	
+	
+ .qalist dd{
+	border-radius:0.8vw;
+}	
+	
+ .qalist .box{
+	font-size:3.2vw;
+	padding:3vw 4vw;
+	border-bottom-left-radius:0.8vw;
+	border-bottom-right-radius:0.8vw;
+}	
+ .qalist .dotlist{
+	padding-left:5vw;
+}	
+	
+/*開合效果NEW-END*/	
+	
+	
 
-dl.faqlist ul {
-	padding:0px 0px 10px 0px;
-}
-
-dl.faqlist ul li {
-	list-style:none;
-	color: #284242;
-    font-size: 18px;
-    line-height: 32px;
-	margin:0px 12px;
-}
-
-dl.faqlist ul li ul {
-	margin-top: 0px;
-	margin-left:-12px;
-}
-
-dl.faqlist ul li ul li{
-	padding-left:0px;
-}
-
-dl.faqlist ul li ul li a{
-	color: #29abe2;
-	background-color:#FFFFFF;
-	text-decoration: underline;
-}
-
-dl.faqlist ul li ul li a:hover{
-	background-color: rgba(133,228,237,0.4);
-	border-radius: 5px;
-}
-
-
-
-/*開合效果END*/
 	
 }
 

@@ -1,13 +1,17 @@
 $(function(){
 	
-	/*到各區域*/
-    $('a.PAGE_SCROLL').bind('click', function(event) {
-        var $anchor = $(this);
-        $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
-        },1500, 'easeInOutCubic');
-        event.preventDefault();
-    });	
+	/*到各區域-new*/
+	  // Scroll smoothly
+  $('[data-smooth-scroll]').on('click', function(e) {
+    var targetEl = $($(this).attr('href'))
+
+    // Make sure the target is on this page
+    if (targetEl.length < 1) return
+
+    $('body, html').animate({scrollTop: targetEl.offset().top}, 1500)
+
+    e.preventDefault()
+  })
 	
 
 	
@@ -36,22 +40,13 @@ $(function(){
 		$(this).toggleClass("active");
 	});
 
-	/*開合*/
-	$('.faqlist dt').click(function(){
-			if(!$(this).next().is(':visible')){
-				$('.faqlist dt').css({'background-position':'30px 19px'});
-				$('.faqlist dd').slideUp(200);
-				$(this).css({'background-position':'30px 19px'});
-				$(this).next().slideDown(200);
-			}else{
-				$(this).css({'background-position':'30px 19px'});
-				$(this).next().slideUp(200);
-			}
-		});
-	
-	
+
 	
 });
+
+
+
+
 
 /* 選單左到右 */
 		$(document).ready(function () {
@@ -71,3 +66,22 @@ $(function(){
 			});
 			
 		});
+
+ /* 開合-NEW */
+
+   $('.qalist').find('dd').each(function () {
+        $(this).click(function () {
+            var _pos = $(this).offset().top;
+            $(this).toggleClass('isopen');
+
+            if($(this).hasClass('isopen')){
+                $(this).find('.box').slideDown();
+                $body.animate({
+                    scrollTop: _pos - headerH
+                }, 600);
+            }else{
+                $(this).find('.box').slideUp();
+            }
+        })
+    })
+

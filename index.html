@@ -15,44 +15,29 @@
 <![endif]-->
 
 
-
-<script type="text/javascript" src="js/spin.min.js"></script>
-
-<script type="text/javascript" src=
-"js/jquery-latest.min.js"></script>
-
-<script type="text/javascript" src="js/go.js"></script>
-
-<script type="text/javascript">
-document.write('<div id="foo"></div>');
-window.onload = function(){   
-document.getElementById('foo').style.display="none";
-} 
-</script>
-
-<script src="carouselengine/jquery.js"></script>
-<script src="carouselengine/amazingcarousel.js"></script>
-<link rel="stylesheet" type="text/css" href="carouselengine/initcarousel-1.css">
-<script src="carouselengine/initcarousel-1.js"></script>
-<script src="js/picturefill.js"></script>
-
+		
 <link href="css/layout.css" rel="stylesheet" type="text/css">
+	
+<!-- Amazing Carousel -->
+<link rel="stylesheet" type="text/css" href="carouselengine/initcarousel-1.css">	
+	
 <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
 
 </head>
 
 <body>
-<div id="foo"></div>
+	
+
 <header>
   <div class="TOP">
     <h1><a href="index.html">Twinkle's Portfoliodi</a></h1>
     <h4 class="MENU_ICON">MENU</h4>
 
     <ul class="MENU">
-	  <li><a href="#SECTION1" class="PAGE_SCROLL" title="網頁設計">Web Design</a></li>    
-      <li><a href="#SECTION2" class="PAGE_SCROLL" title="平面設計 [ UI & 其他 ]">Graphic Design</a></li>
-      <li><a href="#SECTION3" class="PAGE_SCROLL" title="攝影作品 [ 得獎 & 其他 ]">Photography</a></li>
-      <li><a href="#SECTION4" class="PAGE_SCROLL" title="關於我">About Me</a></li>
+	  <li><a href="#SECTION1" data-smooth-scroll title="網頁設計">Web Design</a></li>    
+      <li><a href="#SECTION2" data-smooth-scroll title="平面設計 [ UI & 其他 ]">Graphic Design</a></li>
+      <li><a href="#SECTION3" data-smooth-scroll title="攝影作品 [ 得獎 & 其他 ]">Photography</a></li>
+      <li><a href="#SECTION4" data-smooth-scroll title="關於我">About Me</a></li>
  	</ul>
 
 </div>
@@ -60,7 +45,7 @@ document.getElementById('foo').style.display="none";
 </header>
 
 <article>
-
+<div id="lottie"></div>
 
 <div class="BLOCK">
 
@@ -251,46 +236,49 @@ document.getElementById('foo').style.display="none";
 <section id="SECTION3">
 <h2 title="攝影作品 [ 得獎 & 其他 ]">Photography</h2>
 	<p class="TEXT_C">[ Awards & Others ]</p>
+
 <div id="amazingcarousel-container-1">
-    <div id="amazingcarousel-1">
+    <div id="amazingcarousel-1" style="display:none;position:relative;width:100%;max-width:980px;margin:0px auto 0px;">
         <div class="amazingcarousel-list-container">
             <ul class="amazingcarousel-list">
                 <li class="amazingcarousel-item">
                     <div class="amazingcarousel-item-container">
-<div class="amazingcarousel-image"><a href="images/awards_1-lightbox.jpg" title="2004【耍猴戲】星光游藝 星光文藝 攝影類 第一名"  class="html5lightbox" data-group="amazingcarousel-1"><img src="images/awards_1.jpg"></a></div>                    </div>
+<div class="amazingcarousel-image"><a href="images/awards_1-lightbox.jpg" title="&nbsp;★ 2004【耍猴戲】星光游藝 星光文藝 攝影類 第一名"  class="html5lightbox" data-group="amazingcarousel-1"><img src="images/awards_1.jpg"></a></div>                    </div>
                 </li>
                 <li class="amazingcarousel-item">
                     <div class="amazingcarousel-item-container">
-<div class="amazingcarousel-image"><a href="images/awards_2-lightbox.jpg" title="2003【無題】星光游藝 星光文藝 攝影類 第二名"  class="html5lightbox" data-group="amazingcarousel-1"><img src="images/awards_2.jpg"></a></div>                    </div>
+<div class="amazingcarousel-image"><a href="images/awards_2-lightbox.jpg" title="&nbsp;★ 2003【無題】星光游藝 星光文藝 攝影類 第二名"  class="html5lightbox" data-group="amazingcarousel-1"><img src="images/awards_2.jpg"></a></div>                    </div>
                 </li>
                 <li class="amazingcarousel-item">
                     <div class="amazingcarousel-item-container">
-<div class="amazingcarousel-image"><a href="images/awards_3-lightbox.jpg" title="2002【掙】星光游藝 龍戰於野文藝獎 攝影類 第三名"  class="html5lightbox" data-group="amazingcarousel-1"><img src="images/awards_3.jpg"></a></div>                    </div>
+<div class="amazingcarousel-image"><a href="images/awards_3-lightbox.jpg" title="&nbsp;★ 2002【掙】星光游藝 龍戰於野文藝獎 攝影類 第三名"  class="html5lightbox" data-group="amazingcarousel-1"><img src="images/awards_3.jpg"></a></div>                    </div>
                 </li>
                 <li class="amazingcarousel-item">
                     <div class="amazingcarousel-item-container">
-<div class="amazingcarousel-image"><a href="images/awards_4-lightbox.jpg" title="2004【無題】星光游藝 星光文 藝攝影類 佳作"  class="html5lightbox" data-group="amazingcarousel-1"><img src="images/awards_4.jpg"></a></div>                    </div>
+<div class="amazingcarousel-image"><a href="images/awards_4-lightbox.jpg" title="&nbsp;★ 2004【無題】星光游藝 星光文 藝攝影類 佳作"  class="html5lightbox" data-group="amazingcarousel-1"><img src="images/awards_4.jpg"></a></div>                    </div>
                 </li>
                 <li class="amazingcarousel-item">
                     <div class="amazingcarousel-item-container">
-<div class="amazingcarousel-image"><a href="images/awards_5-lightbox.jpg" title="2008 第一屆DCView攝影鐵人大賽 年度新秀鐵人獎"  class="html5lightbox" data-group="amazingcarousel-1"><img src="images/awards_5.jpg"></a></div>                    </div>
+<div class="amazingcarousel-image"><a href="images/awards_5-lightbox.jpg" title="&nbsp;★ 2008 第一屆DCView攝影鐵人大賽 年度新秀鐵人獎"  class="html5lightbox" data-group="amazingcarousel-1"><img src="images/awards_5.jpg"></a></div>                    </div>
                 </li>
                 <li class="amazingcarousel-item">
                     <div class="amazingcarousel-item-container">
-<div class="amazingcarousel-image"><a href="images/20110306-lightbox.jpg" title="2011【皇帝殿】登高才能看到如此美的景色呀!!而且我超愛像水墨畫的畫意攝影呀~"  class="html5lightbox" data-group="amazingcarousel-1"><img src="images/20110306.jpg"></a></div>                    </div>
+<div class="amazingcarousel-image"><a href="images/20110306-lightbox.jpg" title="&nbsp;★ 2011【皇帝殿】登高才能看到如此美的景色呀!!而且我超愛像水墨畫的畫意攝影呀~"  class="html5lightbox" data-group="amazingcarousel-1"><img src="images/20110306.jpg"></a></div>                    </div>
                 </li>
                 <li class="amazingcarousel-item">
                     <div class="amazingcarousel-item-container">
-<div class="amazingcarousel-image"><a href="images/20120918-lightbox.jpg" title="2012【清境農場】超像武俠小說練功的場景!!旅行總會帶來意外的美麗畫面~"  class="html5lightbox" data-group="amazingcarousel-1"><img src="images/20120918.jpg"></a></div>                    </div>
+<div class="amazingcarousel-image"><a href="images/20120918-lightbox.jpg" title="&nbsp;★ 2012【清境農場】超像武俠小說練功的場景!!旅行總會帶來意外的美麗畫面~"  class="html5lightbox" data-group="amazingcarousel-1"><img src="images/20120918.jpg"></a></div>                    </div>
                 </li>
             </ul>
             <div class="amazingcarousel-prev"></div>
             <div class="amazingcarousel-next"></div>
         </div>
-       
+        <div class="amazingcarousel-nav"></div>
+        
     </div>
-</div>
-</section>
+</div>	
+
+	</section>
 
 <section id="SECTION4">
 <h2 title="關於我">About Me</h2>
@@ -337,7 +325,24 @@ document.getElementById('foo').style.display="none";
 </article>
 
 <footer>
-<p id="FOOTER_TEXT">Copyright © 2018 Twinkle's. All Rights Reserved</p>
+<p id="FOOTER_TEXT">Copyright © 2019 Twinkle's. All Rights Reserved</p>
 </footer>
+
+
+<!-- 必要的js -->
+<script src="js/jquery-latest.min.js"></script>
+<script src="js/go.js"></script>
+	
+<!-- 動畫的js -->	
+<script src="js/script2.js"></script>
+<script src="js/script.js"></script>
+
+<!-- Amazing Carousel -->
+<script src="carouselengine/jquery.js"></script>
+<script src="carouselengine/amazingcarousel.js"></script>
+<script src="carouselengine/initcarousel-1.js"></script>	
+
+<script src="js/picturefill.js"></script>	
+	
 </body>
 </html>

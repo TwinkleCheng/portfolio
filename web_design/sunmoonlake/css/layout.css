@@ -104,7 +104,7 @@ body {
 
 .navbar-default.navbar-shrink {
 	padding: 10px 0;
-	background-color:rgba(144,190,213,0.9);
+	background-color:rgba(50,174,190,0.9);
 	height: 210px;
 	-webkit-transition: all .3s;
 	-moz-transition: all .3s;
@@ -150,9 +150,10 @@ section h2{
 	font-size: 24px;
 	line-height: 48px;
 	letter-spacing: 2px;
-	color: #dc0000;
+	color: #ed0424;
 	padding-left:32px;
 	padding-top: 10px;
+	
 }
 
 #SECTION1 h2,#SECTION3 h2{
@@ -171,16 +172,16 @@ section h2{
 
 
 section h3{
-	font-size: 15px;
-	line-height: 24px;
-	color: #dc0000;
+	font-size: 18px;
+	line-height: 30px;
+	color: #ed0424;
 	padding-top: 10px;
-	text-align: justify;
+	
 }
 
 .entypo-leaf{
-	color:#336314;
-	padding-right: 2px;
+	color:#6d9627;
+	padding-right: 5px;
 }
 
 section h4{
@@ -221,7 +222,7 @@ section .P2{
 }
 
 #SECTION2,#SECTION4{
-	background-color:rgba(195,235,255,0.8);
+	background-color:rgba(203,237,242,0.8);
 }
 
 .IMG_BOT{
@@ -280,7 +281,7 @@ footer .FOOTER p{
 .navbar-default {
 	padding: 0px;
 	border: 0px;
-	background-color: rgba(144,190,213,0.9);
+	background-color: rgba(50,174,190,0.9);
 	-webkit-transition: all .3s;
 	-moz-transition: all .3s;
 	transition: all .3s;
@@ -297,7 +298,7 @@ footer .FOOTER p{
 	
 .navbar-default.navbar-shrink {
 	padding: 0px;
-	background-color:rgba(144,190,213,0.9);
+	background-color:rgba(50,174,190,0.9);
 	height: 0px;
 	-webkit-transition: all .3s;
 	-moz-transition: all .3s;
@@ -325,21 +326,21 @@ footer .FOOTER p{
 	
 .navbar-default .navbar-nav{
 	margin: 0px -15px;
-	background-color: rgba(144,190,213,0.9);
+	background-color:rgba(50,174,190,0.9);
 	height: 300px;
 }
 	
 .navbar-default .navbar-nav>li>a {
-	color: #333;
+	color: #092023;
 	text-align: center;
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-	color: #dc0000;
+	color: #ed0424;
 	background-color: transparent;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-	color: #454545;
-	background-color:rgba(195,235,255,0.9);
+	color: #092023;
+	background-color:rgba(203,237,242,0.6);
 	border-radius: 0px;
 }
 .navbar-default .navbar-nav>.disabled>a, .navbar-default .navbar-nav>.disabled>a:focus, .navbar-default .navbar-nav>.disabled>a:hover {
@@ -377,7 +378,7 @@ section h2{
 	font-size: 24px;
 	line-height: 48px;
 	letter-spacing: 2px;
-	color: #dc0000;
+	color: #ed0424;
 	padding-left:32px;
 	padding-top: 10px;
 }
@@ -398,16 +399,15 @@ section h2{
 
 
 section h3{
-	font-size: 15px;
-	line-height: 24px;
-	color: #dc0000;
+	font-size: 18px;
+	line-height: 30px;
+	color: #ed0424;
 	padding-top: 10px;
-	text-align: justify;
 }
 
 .entypo-leaf{
-	color:#336314;
-	padding-right: 2px;
+	color:#6d9627;
+	padding-right:5px;
 }
 
 section h4{
@@ -449,7 +449,7 @@ section .P2{
 }
 
 #SECTION2,#SECTION4{
-	background-color:rgba(195,235,255,0.8);
+	background-color:rgba(203,237,242,0.8);
 }
 	
 .IMG_BOT{

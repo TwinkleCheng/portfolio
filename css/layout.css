@@ -52,16 +52,26 @@ table {
 html {
 	font-family:Century Gothic, Helvetica, "微軟正黑體", sans-serif;
 	-webkit-text-size-adjust:none;
-
 }
 
 body {
 	background: center top url(../images/layout_bg.jpg) repeat;
 }
 
-#foo{
-	display:block;
+body, html{     
+    height:100%;
 }
+
+
+#lottie{
+    width:100%;
+    height:100%;
+    display:block;
+    overflow: hidden;
+	transform: translate3d(0,0,0);      
+	text-align: center;   
+	opacity: 1;
+        }
 
 
 
@@ -92,7 +102,7 @@ header .TOP h1 a{
 	width:100px;
 	height:100px;
 	float:left;
-	background-image:url(../images/twin_logo.gif);
+	background-image:url("../images/twin_logo.svg");
 }
 
 header .TOP h4.MENU_ICON{
@@ -649,6 +659,15 @@ footer p#FOOTER_TEXT{
 	box-shadow: 0px 0px 30px rgba(154,155,155,0.5);
 }
 
+.IMG_ROBOT{
+	font-size: 0;
+}
+
+.IMG_ROBOT img{
+	display:inline-block;
+	width: 50%;
+}
+
 
 /* 內頁_商品發想 */
 
@@ -728,18 +747,20 @@ footer p#FOOTER_TEXT{
 .INSIDE_PAGE_LAYOUT_3 .IMG_UI_BG{
 	width: 100%;
 	height: auto;
-	background-color: #0f111b;
 	box-shadow: 0px 0px 30px rgba(154,155,155,0.5);
 	border-radius: 10px;
-	padding-bottom: 120px;
+	background: #1d2029;
 }
 
 
 
 .INSIDE_PAGE_LAYOUT_3 .IMG_UI{
 	margin: 0px auto;
-	width: 250px;
+	width: 320px;
 	height: auto;
+	border-radius: 0px;
+	padding-top: 0px;
+	padding-bottom: 80px;	
 }
 
 
@@ -798,8 +819,7 @@ header .TOP h1 a{
 	width:50px;
 	height:50px;
 	float:left;
-	background-image:url(../images/twin_logo.gif);
-	background-size:50px auto;
+	background-image:url("../images/twin_logo.svg");
 }
 
 header .TOP h4.MENU_ICON{
@@ -1337,6 +1357,14 @@ footer p#FOOTER_TEXT{
 	box-shadow: 0px 15px 30px rgba(154,155,155,0.5);
 }
 
+.IMG_ROBOT{
+	font-size: 0;
+}
+
+.IMG_ROBOT img{
+	display:inline-block;
+	width: 100%;
+}
 
 
 /* 內頁_商品發想 */
@@ -1414,16 +1442,18 @@ footer p#FOOTER_TEXT{
 .INSIDE_PAGE_LAYOUT_3 .IMG_UI_BG{
 	width: 100%;
 	height: auto;
-	background-color: #0f111b;
 	box-shadow: 0px 15px 30px rgba(154,155,155,0.5);
 	border-radius: 0px;
-	padding-bottom: 50px;
+	background: #1d2029;
 }
 
 .INSIDE_PAGE_LAYOUT_3 .IMG_UI{
 	margin: 0px auto;
-	width:80%;
+	width: 85%;
 	height: auto;
+	border-radius: 0px;
+	padding-top: 10px;
+	padding-bottom: 50px;	
 }
 
 .INSIDE_PAGE_LAYOUT_3 img{
@@ -1481,8 +1511,8 @@ header .TOP h1 a{
 	width:100px;
 	height:100px;
 	float:left;
-	background-image:url(../images/twin_logo_t.gif);
-	background-size:100px auto;
+	background-image:url("../images/twin_logo.svg");
+
 }
 
 header .TOP h4.MENU_ICON{
@@ -2021,6 +2051,16 @@ footer p#FOOTER_TEXT{
 	border-radius: 0px;
 	box-shadow: 0px 15px 30px rgba(154,155,155,0.5);
 }
+	
+.IMG_ROBOT{
+	font-size: 0;
+}
+
+.IMG_ROBOT img{
+	display:inline-block;
+	width: 50%;
+}
+
 
 /* 內頁_商品發想 */
 
@@ -2099,18 +2139,19 @@ footer p#FOOTER_TEXT{
 .INSIDE_PAGE_LAYOUT_3 .IMG_UI_BG{
 	width: 100%;
 	height: auto;
-	background-color: #0f111b;
 	box-shadow: 0px 0px 30px rgba(154,155,155,0.5);
 	border-radius: 0px;
-	padding-bottom: 120px;
+	background: #1d2029;
 }
 	
 
-
 .INSIDE_PAGE_LAYOUT_3 .IMG_UI{
 	margin: 0px auto;
-	width: 250px;
+	width: 460px;
 	height: auto;
+	border-radius: 0px;
+	padding-top: 10px;
+	padding-bottom: 80px;	
 }
 
 	
