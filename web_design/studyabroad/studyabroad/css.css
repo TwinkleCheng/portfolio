@@ -1,0 +1,14 @@
+body {
+	background-image: url(../images/13_017/bg.jpg);
+	background-repeat: repeat-x;
+	background-color: #FFFFFF;
+	margin: 0px;
+}
+.table {
+	font-size: 16px;
+	line-height: 20px;
+}
+.red {
+	font-size: 16px;
+	color: #F00;
+}
