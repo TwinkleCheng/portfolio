@@ -361,7 +361,6 @@ article section a:hover{
 	display:inline-block;
 	font-size:20px;
 	color:#fff;
-	font-weight:bold;
 	vertical-align:middle;
 	padding-left:8px;
 	line-height:1.5;
@@ -393,12 +392,12 @@ article section a:hover{
 
  .inner{
 	background:#284242;
-	padding:50px;
+	padding:30px 50px;
 	border-radius: 15px;
 }
 
  .qalist dd{
-	margin-bottom: 20px;
+	margin: 20px 0px;	
 	background:#518287;
 	border-radius:10px;
 	cursor:pointer;
@@ -611,9 +610,8 @@ article section ul li a:hover{
 }
 
  .qalist .sub .no_num{
-	width:2vw;
-	height:2vw;
-	vertical-align:middle;
+	width:15px;
+	height:15px;
 }
 		
  .qalist .sub .num{
@@ -627,8 +625,9 @@ article section ul li a:hover{
 }
 	
  .qalist .sub p{
-	font-size:3vw;
-	width:70%;
+	font-size:2.5vw;
+	letter-spacing:1px;
+	width:74%;
 }
 	
  .qalist .sub .ar{
@@ -644,20 +643,22 @@ article section ul li a:hover{
 }	
 		
  .inner{
-	padding:7vw;
-	border-bottom-left-radius:1.5vw;
-	border-bottom-right-radius:1.5vw;
+	background:#284242;
+	padding:30px 40px;
+	border-radius: 15px;
 }	
 	
  .qalist dd{
-	border-radius:0.8vw;
+	margin: 20px 0px;	
+	background:#518287;
+	border-radius:10px;
+	cursor:pointer;
 }	
 	
  .qalist .box{
-	font-size:3.2vw;
+	font-size:2.4vw;
 	padding:3vw 4vw;
-	border-bottom-left-radius:0.8vw;
-	border-bottom-right-radius:0.8vw;
+	line-height:1.6;
 }	
  .qalist .dotlist{
 	padding-left:5vw;
@@ -881,9 +882,8 @@ article section .DOWNLOAD_h3 a:hover{
 }
 
  .qalist .sub .no_num{
-	width:2vw;
-	height:2vw;
-	vertical-align:middle;
+	width:12px;
+	height:12px;
 }
 		
  .qalist .sub .num{
@@ -898,6 +898,7 @@ article section .DOWNLOAD_h3 a:hover{
 	
  .qalist .sub p{
 	font-size:5vw;
+	letter-spacing:2px;
 	width:70%;
 }
 	
@@ -908,26 +909,27 @@ article section .DOWNLOAD_h3 a:hover{
 }	
 	
  .qalist .sub .no_num_ar{
-	width:4vw;
+	width:6.5vw;
 	top:37%;
 	right:5%;
 }	
 		
  .inner{
-	padding:7vw;
-	border-bottom-left-radius:1.5vw;
-	border-bottom-right-radius:1.5vw;
+	padding:20px 30px;
+	border-radius: 15px;
 }	
 	
  .qalist dd{
-	border-radius:0.8vw;
+	margin: 20px 0px;	
+	background:#518287;
+	border-radius:10px;
+	cursor:pointer;
 }	
 	
  .qalist .box{
-	font-size:3.2vw;
-	padding:3vw 4vw;
-	border-bottom-left-radius:0.8vw;
-	border-bottom-right-radius:0.8vw;
+	font-size:5vw;
+	padding:5vw 7vw;
+	line-height:1.6;
 }	
  .qalist .dotlist{
 	padding-left:5vw;
