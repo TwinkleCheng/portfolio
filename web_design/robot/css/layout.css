@@ -180,12 +180,14 @@ article{
 }
 
 article nav{
+	height: 100px;
+	margin-bottom: 60px;
+
 }
 
 article nav ul{
 	width: 100%;
 	margin: 0px auto;
-	
 }
 
 article nav ul li{
@@ -206,8 +208,6 @@ article nav ul li a{
 	text-decoration: none;
 	background-color: #518287;
 	color: #FFFFFF;
-
-
 }
 
 article nav ul li a:hover{
@@ -216,12 +216,11 @@ article nav ul li a:hover{
 
 article section{
 	width: 100%;
-	margin:48px 0px;
+	margin:0px 0px 80px 0px;
 	clear: both;
 	padding-top: 40px;
 	text-align: center;
 	background: url(../images/hr.svg) no-repeat top;
-
 }
 
 article section h2{
@@ -399,7 +398,7 @@ article section a:hover{
  .qalist dd{
 	margin: 20px 0px;	
 	background:#518287;
-	border-radius:10px;
+	border-radius:15px;
 	cursor:pointer;
 }
 
@@ -644,14 +643,14 @@ article section ul li a:hover{
 		
  .inner{
 	background:#284242;
-	padding:30px 40px;
+	padding:5px 20px;
 	border-radius: 15px;
 }	
 	
  .qalist dd{
 	margin: 20px 0px;	
 	background:#518287;
-	border-radius:10px;
+	border-radius:15px;
 	cursor:pointer;
 }	
 	
@@ -799,14 +798,13 @@ article{
 }
 
 article nav{
-	
+	height: 100px;
+	margin-bottom: 50px;
 }
 
-	
 article nav ul{
 	width: 100%;
 	margin: 0px auto;
-	height: auto;
 }
 
 article nav ul li{
@@ -835,11 +833,11 @@ article nav ul li a:hover{
 
 article section{
 	width: 100%;
-	margin:0px 0px 0px 0px;
+	margin:0px 0px 50px 0px;
 	clear: both;
 	padding-top: 40px;
 	text-align: center;
-	background: url(../images/hr.svg) no-repeat top;
+	background: url(../images/hr_m.svg) no-repeat top;
 }
 
 article section h2{
@@ -898,31 +896,32 @@ article section .DOWNLOAD_h3 a:hover{
 	
  .qalist .sub p{
 	font-size:5vw;
-	letter-spacing:2px;
-	width:70%;
+	letter-spacing:1px;
+	width:71%;
+
 }
 	
  .qalist .sub .ar{
 	width:7vw;
-	top:40%;
+	top:38%;
 	right:5%;
 }	
 	
  .qalist .sub .no_num_ar{
-	width:6.5vw;
+	width:7vw;
 	top:37%;
 	right:5%;
 }	
 		
  .inner{
-	padding:20px 30px;
+	padding:5px 20px;
 	border-radius: 15px;
 }	
 	
  .qalist dd{
 	margin: 20px 0px;	
 	background:#518287;
-	border-radius:10px;
+	border-radius: 15px;
 	cursor:pointer;
 }	
 	
