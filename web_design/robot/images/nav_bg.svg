@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 240 620" style="enable-background:new 0 0 240 620;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#66A9B0;stroke-miterlimit:10;stroke-dasharray:5.4772;}
+	.st1{fill:none;stroke:#66A9B0;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#66A9B0;stroke-miterlimit:10;stroke-dasharray:10.4102,10.4102;}
+	.st3{fill:#518287;}
+</style>
+<g>
+	<g>
+		<g>
+			<line class="st0" x1="240" y1="0" x2="240" y2="6"/>
+		</g>
+		<g>
+			<g>
+				<line class="st1" x1="240" y1="18" x2="240" y2="23.6"/>
+				<line class="st2" x1="240" y1="35" x2="240" y2="576.7"/>
+				<line class="st1" x1="240" y1="582.4" x2="240" y2="588"/>
+			</g>
+		</g>
+		<g>
+			<line class="st0" x1="240" y1="594" x2="240" y2="600"/>
+		</g>
+	</g>
+</g>
+<path class="st3" d="M0,600v20h20C9,620,0,611,0,600z"/>
+</svg>
