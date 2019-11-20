@@ -1,0 +1,945 @@
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap');
+
+/* ---reset.css--- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ---reset.css END--- */
+
+
+* {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+html {
+	font-family: 'Didact Gothic', Helvetica, "微軟正黑體", sans-serif;
+	-webkit-text-size-adjust:none;
+
+}
+
+body {
+	background-color: #85e4ed;
+}
+
+
+
+/* DeskTop First 桌機版優先 */
+
+
+
+aside{
+	display: block;
+	width: 240px;
+	height:100%;
+	background-color:#85e4ed;
+	position: fixed;
+}
+
+.NAV_BG_INDEX{
+	background: url(../images/nav_bg_index.svg) no-repeat bottom;
+}
+
+.NAV_BG{
+	background: url(../images/nav_bg.svg) no-repeat bottom;
+}
+
+aside h1{
+	text-indent: -9999px;
+
+}
+aside h1 a{
+	display:block;
+	width:240px;
+	height:180px;
+	background-image:url(../images/logo_robot.svg);
+}
+
+
+aside nav{
+	display: block;
+	width: 162px;
+	height: auto;
+	margin: 0px auto;
+	clear: both;
+}
+
+
+aside nav ul{
+	display:block;
+	padding-top: 50px;
+}
+
+aside nav ul li{
+	
+}
+
+
+aside nav ul li a{
+	display:block;
+	width: 165px;
+	height: 55px;
+	color:#ffffff;
+	text-decoration:none;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 50px;
+	text-align: center;
+	letter-spacing:1px;
+	background-image: url(../images/nav.svg);
+	margin-bottom: 20px;
+}
+
+aside nav ul li a:hover,a.ACTIVE{
+	background-image: url(../images/nav_hover.svg);
+	
+}
+
+.MAIN{
+	margin-left: 240px;
+}
+
+.TOP_MENU{
+	display:none;
+}
+
+header{
+	display: block;
+}
+
+header img{
+	max-width: 100%;
+	height: auto;
+}
+
+#lottie, #lottie_banner_robot{
+    width:100%;
+    height:100%;
+    display:block;
+    overflow: hidden;
+    transform: translate3d(0,0,0);
+    text-align: center;
+    opacity: 1;
+}
+
+#lottie_m, #lottie_banner_robot_m{
+    width:100%;
+    height:100%;
+    display:none;
+    overflow: hidden;
+    transform: translate3d(0,0,0);
+    text-align: center;
+    opacity: 1;
+}
+
+
+article{
+	padding:20px 10%;
+	
+}
+
+article nav{
+	height: 100px;
+	margin-bottom: 60px;
+
+}
+
+article nav ul{
+	width: 100%;
+	margin: 0px auto;
+}
+
+article nav ul li{
+	float: left;
+	width: 200px;
+	padding:0px 10px 20px 10px;
+}
+
+
+article nav ul li a{
+	display: block;
+	width: 100%;
+	height: 48px;
+	font-size: 20px;
+	line-height:48px;
+	border-radius: 48px;
+	text-align: center;
+	text-decoration: none;
+	background-color: #518287;
+	color: #FFFFFF;
+}
+
+article nav ul li a:hover{
+	background-color: #66a9b0;
+}
+
+article section{
+	width: 100%;
+	margin:0px 0px 80px 0px;
+	clear: both;
+	padding-top: 40px;
+	text-align: center;
+	background: url(../images/hr.svg) no-repeat top;
+}
+
+article section h2{
+	font-size: 24px;
+	line-height:48px;
+	color: #284242;
+	font-weight: bold;
+	text-align: left;
+}
+
+article section p{
+	font-size: 20px;
+	line-height:36px;
+	color: #284242;
+	text-align: justify;
+	text-align: left;
+
+}
+
+article section h3{
+	display: block;
+	width:180px;
+	height: 48px;
+	font-size: 18px;
+	line-height:48px;
+	border-radius:48px;
+	color: #FFFFFF;
+	font-weight: bold;
+	margin: 25px 0px 15px 0px;
+	text-align: center;
+	background-color: #2695e4;
+}
+
+article section .LIST_h3{
+	width:360px;
+}
+
+article section .LIST_h3 a:hover{
+	width:360px;
+}
+
+article section .DOWNLOAD_h3{
+	width:180px;
+}
+
+article section .DOWNLOAD_h3 a:hover{
+	width:180px;
+}
+
+article section h3 a{
+	color: #FFFFFF;
+	text-decoration: none;
+	
+}
+
+article section h3 a:hover{
+	display: block;
+	width:180px;
+	height: 48px;
+	font-size: 18px;
+	line-height:48px;
+	border-radius:48px;
+	color: #2695e4;
+	background-color: #FFFFFF;
+}
+
+
+.TEXT_BLUE{
+	color: #518287;
+	text-decoration: underline;
+}
+
+article section img{
+	max-width:100%;
+	height: auto;
+	vertical-align : middle;
+}
+
+
+
+article section a:hover{
+	background-color: rgba(133,228,237,0.4);
+	border-radius: 5px;
+}
+
+
+
+
+
+/*開合效果NEW*/
+ .qalist .sub{
+	font-size:20px;
+	padding:16px 20px;
+	position:relative;
+	text-align: left;
+}
+
+ .qalist .sub .no_num{
+	display:inline-block;
+	border-radius:50%;
+	background:#931e12;
+	width:10px;
+	height:10px;
+	vertical-align:middle;
+	margin-left: 15px;
+	margin-right: 5px;
+}
+
+ .qalist .sub .num{
+	text-align:center;
+	display:inline-block;
+	border-radius:50%;
+	background:#931e12;
+	width:43px;
+	height:43px;
+	font-size:0;
+	vertical-align:middle;
+}
+
+ .qalist .sub .num:after{
+	content:"";
+	display:inline-block;
+	width:0;
+	height:100%;
+	vertical-align:middle;
+}
+
+ .qalist .sub .num span{
+	display:inline-block;
+	font-size:18px;
+	color:#fff;
+	font-weight:bold;
+	vertical-align:middle;
+}
+
+ .qalist .sub p{
+	display:inline-block;
+	font-size:20px;
+	color:#fff;
+	vertical-align:middle;
+	padding-left:8px;
+	line-height:1.5;
+	text-align: left;
+	letter-spacing:2px;
+	width:87%;
+}
+
+ .qalist .sub .ar{
+	width:25px;
+	position:absolute;
+	top:22px;
+	right:20px;
+	-webkit-transition:all .3s ease;
+	-o-transition:all .3s ease;
+	transition:all .3s ease;
+}
+
+ .qalist .sub .no_num_ar{
+	width:25px;
+	position:absolute;
+	top:20px;
+	right:24px;
+	-webkit-transition:all .3s ease;
+	-o-transition:all .3s ease;
+	transition:all .3s ease;
+}
+
+
+ .inner{
+	background:#284242;
+	padding:30px 50px;
+	border-radius: 15px;
+}
+
+ .qalist dd{
+	margin: 20px 0px;	
+	background:#518287;
+	border-radius:15px;
+	cursor:pointer;
+}
+
+ .qalist dd:hover{
+	background:rgba(81,130,135,0.4);
+}
+
+ .qalist dd.isopen .ar, .qalist dd.isopen .no_num_ar{
+	-webkit-transform:rotate(-180deg);
+	-ms-transform:rotate(-180deg);
+	transform:rotate(-180deg);
+	-webkit-transition:all .3s ease;
+	-o-transition:all .3s ease;
+	transition:all .3s ease;
+}
+
+ .qalist .box{
+	background:#fff;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	font-size:15px;
+	color:#010101;
+	line-height:1.8;
+	padding:15px 80px;
+	display:none;
+}
+
+ .qalist .box a{
+	display:inline;
+	text-decoration:none;
+	color: #931e12;
+	font-weight: bold;
+}
+
+.qalist .box a:hover{
+	background-color:rgba(38,149,228,0.5);
+	
+}
+
+
+ .qalist .dotlist{
+	list-style:disc;
+	padding-left:20px;
+}
+
+.qalist .dotlist a{
+	background: #fff;
+}
+
+
+/*開合效果NEW-END*/
+
+/*圖片上的連結*/
+.NEWS_0521 img{
+	max-width:600px;
+	width: 100%;
+	height: auto;
+}
+
+.NEWS_0507 img{
+	max-width:450px;
+	width: 100%;
+	height: auto;
+}
+
+/*圖片上的連結-END*/
+
+
+
+/*表格*/
+
+table.TB_TIMELINE {
+	border-collapse:collapse;
+	border:2px double #2695e4;
+	margin-bottom:20px;
+	line-height:24px;
+	font-size:15px;
+	background-color:rgba(255,255,255,0.5);
+	font-weight:bold;
+}
+
+table.TB_TIMELINE caption {
+	text-align:left;
+	font-size:18px;
+	line-height:24px;
+	font-weight:bold;
+	padding-bottom:5px;
+	text-align: center;
+	color:#284242;
+}
+
+table.TB_TIMELINE th, table.TB_TIMELINE td {
+	border:1px solid #2695e4;
+	padding:10px 8px;
+	text-align:center;
+	vertical-align:middle;
+}
+table.TB_TIMELINE th {
+	font-weight:bold;
+	background-color: #2695e4;
+	color: #FFFFFF;
+	border:1px solid #FFFFFF;
+}
+
+.TEXT_RED{
+	color:#931e12;
+	font-weight: bold;
+}
+.TEXT_BOLD{
+	font-weight: bold;
+}
+.TEXT_RED2{
+	color:#931e12;
+	font-weight: bold;
+	font-size: 16px
+}
+.TEXT_GREEN{
+	color: #4f7b0f;
+	font-weight: bold;
+}
+
+
+article section ul{
+	font-size: 20px;
+	line-height:36px;
+	color: #284242;
+	text-align: justify;
+	text-align: left;
+}
+
+article section ul li{
+	
+}
+article section ul li ul{
+	margin-top: -36px;
+}
+
+article section ul li ul li{
+	padding-left: 100px;
+}
+
+article section ul li a{
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #2695e4;
+	border-radius: 0px;
+}
+
+article section ul li a:hover{
+	color: #2695e4;
+	background-color:#ffffff;
+	border-radius: 0px;
+}
+
+
+
+/*回頂端*/
+#GOTOP{
+	display:block;
+	position:fixed;
+	width:60px;
+	height: 60px;
+	border-radius: 30px;
+	color: #FFFFFF;
+	background-color:#284242;
+	text-align: center;
+	text-decoration: none;
+	font-size: 13px;
+	letter-spacing:2px;
+	line-height: 60px;
+	bottom:20px;
+	right:20px;
+	cursor: pointer;
+}
+
+/* 以下為 首頁動畫特別版 */
+@media screen and (max-width: 1024px) {
+	
+#lottie, #lottie_banner_robot{
+    width:100%;
+    height:100%;
+    display:none;
+    overflow: hidden;
+    transform: translate3d(0,0,0);
+    text-align: center;
+    opacity: 1;
+}
+
+#lottie_m, #lottie_banner_robot_m{
+    width:100%;
+    height:100%;
+    display:block;
+    overflow: hidden;
+    transform: translate3d(0,0,0);
+    text-align: center;
+    opacity: 1;
+}
+	
+}
+
+/* 以下為 開合效果NEW特別版 */
+
+/*開合效果NEW*/
+@media screen and (min-width: 641px) and (max-width: 1200px) {
+
+ .qalist .sub{
+	padding:3vw 2vw;
+}
+
+ .qalist .sub .no_num{
+	width:15px;
+	height:15px;
+}
+		
+ .qalist .sub .num{
+	width:7vw;
+	height:7vw;
+	vertical-align:middle;
+}
+	
+ .qalist .sub .num span{
+	font-size:20px;
+}
+	
+ .qalist .sub p{
+	font-size:20px;
+	letter-spacing:1px;
+	width:74%;
+}
+	
+ .qalist .sub .ar{
+	width:3.5vw;
+	top:40%;
+	right:5%;
+}	
+	
+ .qalist .sub .no_num_ar{
+	width:4vw;
+	top:37%;
+	right:5%;
+}	
+		
+ .inner{
+	background:#284242;
+	padding:5px 20px;
+	border-radius: 15px;
+}	
+	
+ .qalist dd{
+	margin: 20px 0px;	
+	background:#518287;
+	border-radius:15px;
+	cursor:pointer;
+}	
+	
+ .qalist .box{
+	font-size:15px;
+	padding:15px 40px;
+	line-height:1.6;
+
+}	
+ .qalist .dotlist{
+	padding-left:5vw;
+}	
+	
+/*開合效果NEW-END*/
+
+}
+
+
+/* 以下為 手機版 */
+@media screen and (max-width: 640px) {
+
+aside{
+	display: none;
+	width: 240px;
+	height:100%;
+	background-color:#85e4ed;
+	position: fixed;
+}
+
+
+/* 漢堡選單 */
+#BOX {
+	width: 40px;
+	height: 40px;
+	padding-top: 11px;
+	cursor: pointer;
+	border-radius: 5px;
+	margin: 11px;
+	float:left;
+	position: fixed;
+	z-index: 100;
+	background-color: #284242;
+}
+
+span.AAA, span.BBB, span.CCC {
+	display: block;
+	width: 25px;
+	height: 3px;
+	margin: 0px auto;
+	background-color: #fff;
+	margin-bottom: 4px;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	-webkit-transform: rotate(0deg) translate3d(0px, 0px, 0px);
+	transform: rotate(0deg) translate3d(0px, 0px, 0px);
+}
+
+#BOX.active span.AAA {
+	-webkit-transform: rotate(405deg) translate3d(5px, 5px, 0px);
+	transform: rotate(405deg) translate3d(5px, 5px, 0px);
+}
+#BOX.active span.BBB {
+	width: 40px;
+	opacity: 0;
+}
+#BOX.active span.CCC {
+	-webkit-transform: rotate(-405deg) translate3d(5px, -5px, 0px);
+	transform: rotate(-405deg) translate3d(5px, -5px, 0px);
+}
+
+/* 主要選單 */
+.MAIN{
+	margin-left: 0px;
+}
+
+.TOP_MENU{
+	display:block;
+	
+
+}
+
+.TOP_MENU h1{	
+	text-indent: -9999px;
+	background: no-repeat url(../images/logo_robot_m.svg);
+	background-size: 100% auto;	
+	width: 100%;
+	height: 115px;
+
+}
+
+.TOP_MENU h1 a{
+	display: block;
+	width:300px;
+	height:110px;
+	margin: 0px auto;
+
+}
+	
+
+.TOP_MENU nav{
+	display: block;
+	width: 100%;
+	height: 100vh;
+	background-color:#85e4ed;
+	top: 0;
+	left: -100%;
+	position: fixed;
+	z-index: 99;
+}
+
+
+.TOP_MENU nav ul{
+	margin: 0px auto;
+}
+
+.TOP_MENU nav ul li{
+
+}
+
+
+.TOP_MENU nav ul li a{
+	display:block;
+	width: 140px;
+	height: 47px;
+	color:#ffffff;
+	text-decoration:none;
+	font-size: 15px;
+	font-weight: bold;
+	line-height:42px;
+	text-align: center;
+	letter-spacing:1px;
+	background: no-repeat url(../images/nav.svg);
+	margin: 8px auto;
+	
+}
+
+.TOP_MENU nav ul li:first-child a{
+}
+
+.TOP_MENU nav ul li a:hover{
+	background: no-repeat url(../images/nav_hover.svg);
+}
+
+article{
+	padding:20px;
+}
+
+article nav{
+	height: 100px;
+	margin-bottom: 50px;
+}
+
+article nav ul{
+	width: 100%;
+	margin: 0px auto;
+}
+
+article nav ul li{
+	float: left;
+	width: 100%;
+	padding:0px 10px 20px 10px;
+}
+
+article nav ul li a{
+	display: block;
+	width: 100%;
+	height: 48px;
+	font-size: 20px;
+	line-height:48px;
+	border-radius: 48px;
+	text-align: center;
+	text-decoration: none;
+	background-color: #518287;
+	color: #FFFFFF;
+	
+}
+
+article nav ul li a:hover{
+	background-color: #66a9b0;
+}
+
+article section{
+	width: 100%;
+	margin:0px 0px 50px 0px;
+	clear: both;
+	padding-top: 40px;
+	text-align: center;
+	background: url(../images/hr_m.svg) no-repeat top;
+}
+
+article section h2{
+	font-size: 24px;
+	line-height:48px;
+	color: #284242;
+	font-weight: bold;
+	text-align: left;
+}
+
+article section p{
+	font-size: 20px;
+	line-height:40px;
+	color: #284242;
+	text-align: justify;
+	text-align: left;
+
+}	
+	
+article section .LIST_h3{
+	width:100%;
+}
+
+article section .LIST_h3 a:hover{
+	width:100%;
+}
+
+article section .DOWNLOAD_h3{
+	width:100%;
+}
+
+article section .DOWNLOAD_h3 a:hover{
+	width:100%;
+}
+
+/*開合效果NEW*/
+
+.qalist .sub{
+	padding:3vw 2vw;
+}
+
+ .qalist .sub .no_num{
+	width:12px;
+	height:12px;
+}
+		
+ .qalist .sub .num{
+	width:12vw;
+	height:12vw;
+	vertical-align:middle;
+}
+	
+ .qalist .sub .num span{
+	font-size:18px;
+	
+}
+	
+ .qalist .sub p{
+	font-size:20px;
+	letter-spacing:1px;
+	width:70%;
+
+}
+	
+ .qalist .sub .ar{
+	width:7vw;
+	top:38%;
+	right:5%;
+}	
+	
+ .qalist .sub .no_num_ar{
+	width:7vw;
+	top:37%;
+	right:5%;
+}	
+		
+ .inner{
+	padding:5px 20px;
+	border-radius: 15px;
+}	
+	
+ .qalist dd{
+	margin: 20px 0px;	
+	background:#518287;
+	border-radius: 15px;
+	cursor:pointer;
+}	
+	
+ .qalist .box{
+	font-size:15px;
+	padding:15px 20px;
+	line-height:1.5;
+}	
+ .qalist .dotlist{
+	padding-left:5vw;
+}	
+	
+/*開合效果NEW-END*/	
+	
+	
+
+	
+}
+
