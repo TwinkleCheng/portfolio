@@ -424,6 +424,7 @@ article section a:hover{
 	line-height:1.8;
 	padding:15px 80px;
 	display:none;
+	letter-spacing:2px;
 }
 
  .qalist .box a{
@@ -658,7 +659,7 @@ article section ul li a:hover{
 	font-size:18px;
 	padding:15px 40px;
 	line-height:1.6;
-
+	letter-spacing:1px;
 }	
  .qalist .dotlist{
 	padding-left:5vw;
@@ -929,8 +930,9 @@ article section .DOWNLOAD_h3 a:hover{
 	
  .qalist .box{
 	font-size:18px;
-	padding:15px 20px;
+	padding:15px 30px;
 	line-height:1.5;
+	letter-spacing:1px;
 }	
  .qalist .dotlist{
 	padding-left:5vw;
