@@ -183,7 +183,7 @@ article ul.BOX li a{
 	height:0;
 	background-size:cover;
 	overflow:hidden;
-
+	box-shadow:0px 0px 15px #b7b7b7;
 }
 
 article ul.BOX li a:hover{
@@ -381,121 +381,68 @@ article ul.GOODS li a{
 	width:100%;
 	height:0;
 	background-size:cover;
-
+	border-radius:50%; 
+	box-shadow:0px 0px 15px #b7b7b7;
+	padding-bottom:100%;
+	transition:all 0.3s ease-out;
 }
 
 article ul.GOODS li a:hover{
+	width:105%;
+	height:105%;
+	transform:translate(-5px,-5px);
+	padding-bottom:100%;
 }
 
 article ul.GOODS li a.PIC_ARTSHOW{
-	padding-bottom:100%;
-	background-image:url(../images/idea_art_show.png);
-	transition:all 0.3s ease-out;
-
+	background-image:url(../images/idea_art_show.jpg);
 }
 
 article ul.GOODS li a.PIC_ARTSHOW:hover{
-	width:101%;
-	height:101%;
-	transform:translate(0px,-5px);
-	padding-bottom:100%;
-	background-image:url(../images/idea_art_show_hover.png);	
-	background-color: rgba(15,99,106,0.5); 
-	border-radius:50%;
-
+	background-image:url(../images/idea_art_show_hover.jpg);	
 }
 
-
 article ul.GOODS li a.PIC_MUSIC{
-	padding-bottom:100%;
-	background-image:url(../images/idea_music.png);
-	transition:all 0.3s ease-out;
-
+	background-image:url(../images/idea_music.jpg);
 }
 
 article ul.GOODS li a.PIC_MUSIC:hover{
-	width:101%;
-	height:101%;
-	transform:translate(0px,-5px);
-	padding-bottom:100%;
-	background-image:url(../images/idea_music_hover.png);	
-	background-color: rgba(15,99,106,0.5); 
-	border-radius:50%;
-
+	background-image:url(../images/idea_music_hover.jpg);	
 }
 
 article ul.GOODS li a.PIC_WATERINK{
-	padding-bottom:100%;
-	background-image:url(../images/idea_ink_orchid.png);
-	transition:all 0.3s ease-out;
+	background-image:url(../images/idea_ink_orchid.jpg);
 
 }
 
 article ul.GOODS li a.PIC_WATERINK:hover{
-	width:101%;
-	height:101%;
-	transform:translate(0px,-5px);
-	padding-bottom:100%;
-	background-image:url(../images/idea_ink_orchid_hover.png);	
-	background-color: rgba(15,99,106,0.5); 
-	border-radius:50%;
-
+	background-image:url(../images/idea_ink_orchid_hover.jpg);	
 }
 
 article ul.GOODS li a.PIC_BASEBALL{
-	padding-bottom:100%;
-	background-image:url(../images/idea_baseball.png);
-	transition:all 0.3s ease-out;
-
+	background-image:url(../images/idea_baseball.jpg);
 }
 
 article ul.GOODS li a.PIC_BASEBALL:hover{
-	width:101%;
-	height:101%;
-	transform:translate(0px,-5px);
-	padding-bottom:100%;
-	background-image:url(../images/idea_baseball_hover.png);	
-	background-color: rgba(15,99,106,0.5); 
-	border-radius:50%;
-
-}
-
-article ul.GOODS li a.PIC_BEAR{
-	padding-bottom:100%;
-	background-image:url(../images/idea_fish_bear.png);
-	transition:all 0.3s ease-out;
-}
-
-article ul.GOODS li a.PIC_BEAR:hover{
-	width:101%;
-	height:101%;
-	transform:translate(0px,-5px);
-	padding-bottom:100%;
-	background-image:url(../images/idea_fish_bear_hover.png);
-
-	background-color:rgba(15,99,106,0.5); 
-	border-radius:50%;
-
+	background-image:url(../images/idea_baseball_hover.jpg);	
 }
 
 article ul.GOODS li a.PIC_LOGOTW{
-	padding-bottom:100%;
-	background-image:url(../images/idea_logo_tw.png);
-	transition:all 0.3s ease-out;
+	background-image:url(../images/idea_logo_tw.jpg);
 }
 
 article ul.GOODS li a.PIC_LOGOTW:hover{
-	width:101%;
-	height:101%;
-	transform:translate(0px,-5px);
-	padding-bottom:100%;
-	background-image:url(../images/idea_logo_tw_hover.png);
-
-	background-color:rgba(15,99,106,0.5); 
-	border-radius:50%; 
-
+	background-image:url(../images/idea_logo_tw_hover.jpg);
 }
 
+article ul.GOODS li a.PIC_TAIWAN_IMAGES{
+	background-image:url(../images/taiwan_images_bw.svg);
+	background-color: #d6d6d6;
+}
+
+article ul.GOODS li a.PIC_TAIWAN_IMAGES:hover{
+	background-image:url(../images/taiwan_images_hover.svg);
+}
 
 
 /*得獎及攝影作品*/
@@ -1108,99 +1055,51 @@ article ul.GOODS li a{
 	width:100%;
 	height:0;
 	background-size:cover;
+	border-radius:50%; 
+	box-shadow:0px 0px 15px #b7b7b7;
+	padding-bottom:100%;
+	transition:all 0.3s ease-out;
 }
 
 article ul.GOODS li a:hover{
-
+	width:105%;
+	height:105%;
+	transform:translate(-5px,-5px);
+	padding-bottom:100%;
 }
 
 article ul.GOODS li a.PIC_ARTSHOW{
-	padding-bottom:100%;
-	background-image:url(../images/idea_art_show_m.png);
-	transition:all 0.3s ease-out;
-
+	background-image:url(../images/idea_art_show_m.jpg);
 }
 
 article ul.GOODS li a.PIC_ARTSHOW:hover{
-	width:101%;
-	height:101%;
-	transform:translate(0px,-5px);
-	padding-bottom:100%;
-	background-image:url(../images/idea_art_show_hover_m.png);	
-	background-color: rgba(15,99,106,0.5); 
-	border-radius:50%;
-
+	background-image:url(../images/idea_art_show_hover_m.jpg);	
 }
-	
 	
 	
 article ul.GOODS li a.PIC_MUSIC{
-	padding-bottom:100%;
-	background-image:url(../images/idea_music_m.png);
-	transition:all 0.3s ease-out;
-
+	background-image:url(../images/idea_music_m.jpg);
 }
 
 article ul.GOODS li a.PIC_MUSIC:hover{
-	width:101%;
-	height:101%;
-	transform:translate(0px,-5px);
-	padding-bottom:100%;
-	background-image:url(../images/idea_music_hover_m.png);	
-	background-color: rgba(15,99,106,0.5); 
-	border-radius:50%;
-
+	background-image:url(../images/idea_music_hover_m.jpg);	
 }
 	
 article ul.GOODS li a.PIC_WATERINK{
-	padding-bottom:100%;
-	background-image:url(../images/idea_ink_orchid_m.png);
-	transition:all 0.3s ease-out;
-
-
+	background-image:url(../images/idea_ink_orchid_m.jpg);
 }
 
 article ul.GOODS li a.PIC_WATERINK:hover{
-	width:101%;
-	height:101%;
-	transform:translate(0px,-5px);
-	padding-bottom:100%;
-	background-image:url(../images/idea_ink_orchid_hover_m.png);
-	background-color:rgba(15,99,106,0.5); 
-	border-radius:50%;
+	background-image:url(../images/idea_ink_orchid_hover_m.jpg);
 }
 
-article ul.GOODS li a.PIC_BEAR{
-	padding-bottom:100%;
-	background-image:url(../images/idea_fish_bear_m.png);
-	transition:all 0.3s ease-out;
-}
-
-article ul.GOODS li a.PIC_BEAR:hover{
-	width:101%;
-	height:101%;
-	transform:translate(0px,-5px);
-	padding-bottom:100%;
-	background-image:url(../images/idea_fish_bear_hover_m.png);
-	background-color:rgba(15,99,106,0.5); 
-	border-radius:50%;
-}
 
 article ul.GOODS li a.PIC_LOGOTW{
-	padding-bottom:100%;
-	background-image:url(../images/idea_logo_tw_m.png);
-	transition:all 0.3s ease-out;
+	background-image:url(../images/idea_logo_tw_m.jpg);
 }
 
 article ul.GOODS li a.PIC_LOGOTW:hover{
-	width:101%;
-	height:101%;
-	transform:translate(0px,-5px);
-	padding-bottom:100%;
-	background-image:url(../images/idea_logo_tw_hover_m.png);
-	background-color:rgba(15,99,106,0.5);
-	border-radius:50%; 
-
+	background-image:url(../images/idea_logo_tw_hover_m.jpg);
 }
 
 /*得獎及攝影作品*/
@@ -1792,102 +1691,49 @@ article ul.GOODS li a{
 	width:100%;
 	height:0;
 	background-size:cover;
-
+	border-radius:50%; 
+	box-shadow:0px 0px 15px #b7b7b7;
+	padding-bottom:100%;
+	transition:all 0.3s ease-out;
 }
 
 article ul.GOODS li a:hover{
-}
-	
+	width:105%;
+	height:105%;
+	transform:translate(-5px,-5px);
+	padding-bottom:100%;
+}	
 	
 article ul.GOODS li a.PIC_ARTSHOW{
-	padding-bottom:100%;
-	background-image:url(../images/idea_art_show_t.png);
-	transition:all 0.3s ease-out;
-
+	background-image:url(../images/idea_art_show_t.jpg);
 }
 
 article ul.GOODS li a.PIC_ARTSHOW:hover{
-	width:101%;
-	height:101%;
-	transform:translate(0px,-5px);
-	padding-bottom:100%;
-	background-image:url(../images/idea_art_show_hover_t.png);	
-	background-color: rgba(15,99,106,0.5); 
-	border-radius:50%;
-
+	background-image:url(../images/idea_art_show_hover_t.jpg);	
 }
-	
-	
 
 article ul.GOODS li a.PIC_MUSIC{
-	padding-bottom:100%;
-	background-image:url(../images/idea_music_t.png);
-	transition:all 0.3s ease-out;
-
+	background-image:url(../images/idea_music_t.jpg);
 }
 
 article ul.GOODS li a.PIC_MUSIC:hover{
-	width:101%;
-	height:101%;
-	transform:translate(0px,-5px);
-	padding-bottom:100%;
-	background-image:url(../images/idea_music_hover_t.png);	
-	background-color: rgba(15,99,106,0.5); 
-	border-radius:50%;
-
+	background-image:url(../images/idea_music_hover_t.jpg);	
 }
 	
 article ul.GOODS li a.PIC_WATERINK{
-	padding-bottom:100%;
-	background-image:url(../images/idea_ink_orchid_t.png);
-	transition:all 0.3s ease-out;
-
+	background-image:url(../images/idea_ink_orchid_t.jpg);
 }
 
 article ul.GOODS li a.PIC_WATERINK:hover{
-	width:101%;
-	height:101%;
-	transform:translate(0px,-5px);
-	padding-bottom:100%;
-	background-image:url(../images/idea_ink_orchid_hover_t.png);
-	background-color:rgba(15,99,106,0.5); 
-	border-radius:50%;
-
+	background-image:url(../images/idea_ink_orchid_hover_t.jpg);
 }
 
 article ul.GOODS li a.PIC_BEAR{
-	padding-bottom:100%;
-	background-image:url(../images/idea_fish_bear_t.png);
-	transition:all 0.3s ease-out;
-}
-
-article ul.GOODS li a.PIC_BEAR:hover{
-	width:101%;
-	height:101%;
-	transform:translate(0px,-5px);
-	padding-bottom:100%;
-	background-image:url(../images/idea_fish_bear_hover_t.png);
-
-	background-color:rgba(15,99,106,0.5); 
-	border-radius:50%;
-
-}
-
-article ul.GOODS li a.PIC_LOGOTW{
-	padding-bottom:100%;
-	background-image:url(../images/idea_logo_tw_t.png);
-	transition:all 0.3s ease-out;
+	background-image:url(../images/idea_fish_bear_t.jpg);
 }
 
 article ul.GOODS li a.PIC_LOGOTW:hover{
-	width:101%;
-	height:101%;
-	transform:translate(0px,-5px);
-	padding-bottom:100%;
-	background-image:url(../images/idea_logo_tw_hover_t.png);
-
-	background-color:rgba(15,99,106,0.5); 
-	border-radius:50%; 
+	background-image:url(../images/idea_logo_tw_hover_t.jpg);
 }
 
 
