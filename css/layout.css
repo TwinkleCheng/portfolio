@@ -491,6 +491,7 @@ article ul.GOODS li a.PIC_TAIWAN_IMAGES:hover{
 
 .ABOUT p {
 	font-size:12px;
+	line-height:24px;
 	text-align:center;
 	color:#666666;
 }
@@ -503,22 +504,20 @@ article ul.GOODS li a.PIC_TAIWAN_IMAGES:hover{
 	padding-top:20px;
 }
 
-.ABOUT h6{
-	text-align:left;
-	font-size:13px;
-	line-height:24px;
-	color:#666666;
-	font-weight:bold;
-	padding-left:0px;	
+
+.ABOUT .ABOUT_TEXT ul{
+	padding:0px 110px 0px 24px;
+	
 }
 
-.ABOUT .TEXT_LEFT{	
-	text-align:left;
+.ABOUT .ABOUT_TEXT ul li{
+	list-style: disc;
 	font-size:13px;
 	line-height:24px;
 	color:#666666;
-	margin:-24px 110px 0px 18px;
 }
+
+
 
 #GOTOP{
 	position:fixed;
@@ -550,7 +549,7 @@ footer p#FOOTER_TEXT{
 	padding: 8px 0px;
 }
 
-/* 內頁_網頁設計 */
+/* 內頁_網頁設計及其他平面 */
 
 
 .INSIDE_PAGE_LAYOUT_1{
@@ -564,7 +563,7 @@ footer p#FOOTER_TEXT{
 	height:auto;
 }
 
-.INSIDE_PAGE_LAYOUT_1 h3{
+ h3{
 	text-align:center;
 	font-size:20px;
 	line-height:30px;
@@ -573,28 +572,22 @@ footer p#FOOTER_TEXT{
 	padding-top:50px;
 }
 
-.INSIDE_PAGE_LAYOUT_1 p{
+p{
 	text-align:center;
-	line-height:24px;
-	font-size:15px;
+	font-size:16px;
+	line-height:30px;
 	color:#000000;
 }
 
-.INSIDE_PAGE_LAYOUT_1 .TEXT_BOLD{
-	text-align:left;
-	padding:0px 110px;
-	font-weight:bold;
-	line-height:24px;
-}
 
 .INSIDE_PAGE_LAYOUT_1 .TEXT_LEFT{
 	text-align:left;
-	padding:0px 110px;
-	margin-top:-24px;
-	margin-left:80px;
-	line-height:24px;
+	padding: 10px 50px;
 }
 
+.INSIDE_PAGE_LAYOUT_1 b{
+	font-weight:bold;
+}
 
 
 .INSIDE_PAGE_LAYOUT_1 a{
@@ -615,57 +608,6 @@ footer p#FOOTER_TEXT{
 	width: 50%;
 }
 
-
-/* 內頁_商品發想 */
-
-
-.INSIDE_PAGE_LAYOUT_2{
-	width:954px;
-	margin:80px auto;
-}
-
-.INSIDE_PAGE_LAYOUT_2 img{
-	display:block;
-	width:100%;
-	height:auto;
-}
-
-.INSIDE_PAGE_LAYOUT_2 h3{
-	text-align:center;
-	font-size:20px;
-	line-height:30px;
-	color:#000000;
-	font-weight:bold;
-	padding-top:20px;
-}
-
-.INSIDE_PAGE_LAYOUT_2 p{
-	text-align:center;
-	line-height:24px;
-	font-size:15px;
-	color:#000000;
-}
-
-.INSIDE_PAGE_LAYOUT_2 .TEXT_BOLD{
-	text-align:left;
-	padding:0px 110px;
-	font-weight:bold;
-	line-height:24px;
-}
-
-.INSIDE_PAGE_LAYOUT_2 .TEXT_LEFT{
-	text-align:left;
-	padding:0px 110px;
-	margin-top:-24px;
-	margin-left:80px;
-	line-height:24px;
-}
-
-
-
-.INSIDE_PAGE_LAYOUT_2 a{
-	color:#b60176;
-}
 
 
 
@@ -715,28 +657,12 @@ footer p#FOOTER_TEXT{
 	display:block;
 	width:100%;
 	height:auto;
+	margin: 0px auto;
 	border-radius: 10px;
 }
 
 
 
-
-.INSIDE_PAGE_LAYOUT_3 h3{
-	text-align:center;
-	font-size:20px;
-	line-height:30px;
-	color:#000000;
-	font-weight:bold;
-	padding-top:50px;
-	clear: both;
-}
-
-.INSIDE_PAGE_LAYOUT_3 p{
-	text-align:center;
-	line-height:24px;
-	font-size:15px;
-	color:#000000;
-}
 
 
 /* 以下為 手機版 */
@@ -1147,6 +1073,7 @@ article ul.GOODS li a.PIC_LOGOTW:hover{
 
 .ABOUT p {
 	font-size:12px;
+	line-height:24px;
 	text-align:center;
 	color:#666666;
 }
@@ -1158,22 +1085,19 @@ article ul.GOODS li a.PIC_LOGOTW:hover{
 	padding-top:20px;
 }
 
-.ABOUT h6{
-	text-align:left;
-	font-size:13px;
-	line-height:24px;
-	color:#666666;
-	font-weight:bold;
-	padding-left:0px;	
+	
+.ABOUT .ABOUT_TEXT ul{
+	padding:0px 20px;
+	
 }
 
-.ABOUT .TEXT_LEFT{
-	text-align:left;
-	font-size:13px;
-	line-height:24px;
+.ABOUT .ABOUT_TEXT ul li{
+	list-style: disc;
+	font-size:20px;
+	line-height:36px;
 	color:#666666;
-	margin:-24px 0px 0px 18px;
-}
+}	
+	
 
 #GOTOP{
 	position:fixed;
@@ -1201,7 +1125,7 @@ footer p#FOOTER_TEXT{
 	padding:20px 0px 0px 0px;
 }
 
-/* 內頁_網頁設計 */
+/* 內頁_網頁設計及其他平面 */
 
 .INSIDE_PAGE_LAYOUT_1{
 	max-width:100%;
@@ -1215,37 +1139,28 @@ footer p#FOOTER_TEXT{
 	margin:0px auto;
 }
 
-.INSIDE_PAGE_LAYOUT_1 h3{
+h3{
 	text-align:center;
-	font-size:18px;
-	line-height:28px;
+	font-size:30px;
+	line-height:45px;
 	color:#000000;
 	font-weight:bold;
 	padding-top:30px;
 }
 
-.INSIDE_PAGE_LAYOUT_1 p{
+p{
 	text-align:center;
-	font-size:16px;
-	line-height:20px;
+	font-size:20px;
+	line-height:32px;
 	color:#000000;
+	padding: 0px 20px;
 }
 
-.INSIDE_PAGE_LAYOUT_1 .TEXT_BOLD{
-	text-align:left;
-	padding:0px 10px;
-	font-weight:bold;
-	line-height:30px;
-}
 
 .INSIDE_PAGE_LAYOUT_1 .TEXT_LEFT{
 	text-align:left;
-	padding:0px 10px;
-	margin-top:-30px;
-	margin-left:90px;
-	line-height:30px;
-}
-
+	padding: 10px 20px;
+}	
 
 .INSIDE_PAGE_LAYOUT_1 a{
 	color:#b60176;
@@ -1263,56 +1178,6 @@ footer p#FOOTER_TEXT{
 .IMG_ROBOT img{
 	display:inline-block;
 	width: 100%;
-}
-
-
-/* 內頁_商品發想 */
-
-.INSIDE_PAGE_LAYOUT_2{
-	width:100%;
-	margin:10% auto;
-}
-
-.INSIDE_PAGE_LAYOUT_2 img{
-	display:block;
-	width:100%;
-	height:auto;
-}
-
-.INSIDE_PAGE_LAYOUT_2 h3{
-	text-align:center;
-	font-size:22px;
-	line-height:30px;
-	color:#000000;
-	font-weight:bold;
-	padding-top:16px;
-}
-
-.INSIDE_PAGE_LAYOUT_2 p{
-	text-align:center;
-	font-size:18px;
-	line-height:30px;
-	color:#000000;
-}
-
-.INSIDE_PAGE_LAYOUT_2 .TEXT_BOLD{
-	text-align:left;
-	padding:0px 10px;
-	font-weight:bold;
-	line-height:30px;
-}
-
-.INSIDE_PAGE_LAYOUT_2 .TEXT_LEFT{
-	text-align:left;
-	padding:0px 10px;
-	margin-top:-30px;
-	margin-left:90px;
-	line-height:30px;
-}
-
-
-.INSIDE_PAGE_LAYOUT_2 a{
-	color:#b60176;
 }
 
  .GOBACK{
@@ -1357,28 +1222,12 @@ footer p#FOOTER_TEXT{
 
 .INSIDE_PAGE_LAYOUT_3 img{
 	display:block;
-	float: none;
 	width:100%;
 	height:auto;
 	margin: 0px auto;
+	border-radius: 0px;
 }
 
-
-.INSIDE_PAGE_LAYOUT_3 h3{
-	text-align:center;
-	font-size:18px;
-	line-height:28px;
-	color:#000000;
-	font-weight:bold;
-	padding-top:16px;
-}
-
-.INSIDE_PAGE_LAYOUT_3 p{
-	text-align:center;
-	font-size:16px;
-	line-height:20px;
-	color:#000000;
-}	
 	
 }
 
@@ -1794,22 +1643,20 @@ article ul.GOODS li a.PIC_LOGOTW:hover{
 	padding-top:20px;
 }
 
-.ABOUT h6{
-	text-align:left;
-	font-size:13px;
-	line-height:24px;
-	color:#666666;
-	font-weight:bold;
-	padding-left:50px;	
+.ABOUT .ABOUT_TEXT ul{
+	padding:0px 50px;
+	
 }
 
-.ABOUT .TEXT_LEFT{
-	text-align:left;
-	font-size:13px;
-	line-height:24px;
+.ABOUT .ABOUT_TEXT ul li{
+	list-style: disc;
+	font-size:20px;
+	line-height:36px;
 	color:#666666;
-	margin:-24px 50px 0px 68px;
-}
+}	
+	
+	
+	
 
 #GOTOP{
 	position:fixed;
@@ -1842,7 +1689,7 @@ footer p#FOOTER_TEXT{
 	padding: 8px 0px;
 }
 
-/* 內頁_網頁設計 */
+/* 內頁_網頁設計及其他平面 */
 
 
 .INSIDE_PAGE_LAYOUT_1{
@@ -1856,36 +1703,29 @@ footer p#FOOTER_TEXT{
 	height:auto;
 }
 
-.INSIDE_PAGE_LAYOUT_1 h3{
+h3{
 	text-align:center;
-	font-size:20px;
-	line-height:30px;
+	font-size:30px;
+	line-height:45px;
 	color:#000000;
 	font-weight:bold;
 	padding-top:40px;
 }
 
-.INSIDE_PAGE_LAYOUT_1 p{
+p{
 	text-align:center;
-	line-height:24px;
-	font-size:15px;
+	font-size:24px;
+	line-height:45px;
 	color:#000000;
+	padding: 0px 20px;
 }
 
-.INSIDE_PAGE_LAYOUT_1 .TEXT_BOLD{
-	text-align:left;
-	padding:0px 110px;
-	font-weight:bold;
-	line-height:22px;
-}
 
 .INSIDE_PAGE_LAYOUT_1 .TEXT_LEFT{
 	text-align:left;
-	padding:0px 110px;
-	margin-top:-22px;
-	margin-left:70px;
-	line-height:22px;
+	padding: 10px 50px;
 }
+
 
 
 
@@ -1907,58 +1747,6 @@ footer p#FOOTER_TEXT{
 	width: 50%;
 }
 
-
-/* 內頁_商品發想 */
-
-
-.INSIDE_PAGE_LAYOUT_2{
-	width:768px;
-	margin:50px auto;
-
-}
-
-.INSIDE_PAGE_LAYOUT_2 img{
-	display:block;
-	max-width:100%;
-	height:auto;
-}
-
-.INSIDE_PAGE_LAYOUT_2 h3{
-	text-align:center;
-	font-size:20px;
-	line-height:30px;
-	color:#000000;
-	font-weight:bold;
-	padding-top:20px;
-}
-
-.INSIDE_PAGE_LAYOUT_2 p{
-	text-align:center;
-	line-height:22px;
-	font-size:14px;
-	color:#000000;
-}
-
-.INSIDE_PAGE_LAYOUT_2 .TEXT_BOLD{
-	text-align:left;
-	padding:0px 110px;
-	font-weight:bold;
-	line-height:24px;
-}
-
-.INSIDE_PAGE_LAYOUT_2 .TEXT_LEFT{
-	text-align:left;
-	padding:0px 110px;
-	margin-top:-24px;
-	margin-left:70px;
-	line-height:24px;
-}
-
-
-
-.INSIDE_PAGE_LAYOUT_2 a{
-	color:#b60176;
-}
 
 
  .GOBACK{
@@ -2007,26 +1795,11 @@ footer p#FOOTER_TEXT{
 	width: 100%;
 	height: auto;
 	margin: 0px auto;
+	border-radius: 0px;
 }
 
 	
 	
-
-.INSIDE_PAGE_LAYOUT_3 h3{
-	text-align:center;
-	font-size:20px;
-	line-height:30px;
-	color:#000000;
-	font-weight:bold;
-	padding-top:20px;
-}
-
-.INSIDE_PAGE_LAYOUT_3 p{
-	text-align:center;
-	line-height:24px;
-	font-size:15px;
-	color:#000000;
-}	
 
 	
 }
