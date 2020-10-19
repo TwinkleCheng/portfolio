@@ -306,6 +306,10 @@ article ul.BOX li a.PIC_PORTFOLIO{
 	background-image:url(../images/twin_sign_bw.jpg);
 }
 
+article ul.BOX li a.PIC_ABORIGINAL{
+	background-image:url(../images/aboriginal_bw.svg);
+}
+
 article ul.BOX li a.PIC_ROBOT{
 	background-image:url(../images/robot_bw.svg);
 }
@@ -919,6 +923,10 @@ article ul.BOX li a.PIC_PORTFOLIO{
 	background-image:url(../images/twin_sign_bw.jpg);
 }
 
+article ul.BOX li a.PIC_ABORIGINAL{
+	background-image:url(../images/aboriginal_bw.svg);
+}	
+	
 article ul.BOX li a.PIC_ROBOT{
 	background-image:url(../images/robot_bw.svg);
 }
@@ -1483,6 +1491,10 @@ article ul.BOX li a{
 
 article ul.BOX li a.PIC_PORTFOLIO{
 	background-image:url(../images/twin_sign_bw.jpg);
+}
+	
+article ul.BOX li a.PIC_ABORIGINAL{
+	background-image:url(../images/aboriginal_bw.svg);
 }
 
 article ul.BOX li a.PIC_ROBOT{
