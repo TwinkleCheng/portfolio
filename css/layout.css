@@ -375,10 +375,13 @@ article ul.BOX li a.PIC_Q4Go{
 	padding-bottom: 15px;
 }
 
+
+
 article ul.GOODS{
 	list-style-type:none;
 	width:100%;
 	height:auto;
+	display: inline-block;
 }
 
 article ul.GOODS li{
@@ -455,6 +458,15 @@ article ul.GOODS li a.PIC_TAIWAN_IMAGES{
 article ul.GOODS li a.PIC_TAIWAN_IMAGES:hover{
 	background-image:url(../images/taiwan_images_hover.svg);
 }
+
+article ul.GOODS li a.PIC_LOOP{
+	background-image:url(../images/loop_bw.svg);
+}
+
+article ul.GOODS li a.PIC_LOOP:hover{
+	background-image:url(../images/loop_hover.svg);
+}
+
 
 
 /*得獎及攝影作品*/
@@ -990,6 +1002,7 @@ article ul.BOX li a.PIC_Q4Go{
 	text-align:center;
 	margin-top: -15px;
 	padding-bottom: 15px;
+	display:inline;
 }
 	
 article ul.GOODS{
