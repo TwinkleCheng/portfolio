@@ -606,7 +606,7 @@ header.masthead {
 }
 
 #about .FRAME_01, #sign-up .FRAME_01{
-	padding:15px;
+	padding:3.5%;
 }
 	
 
@@ -620,7 +620,7 @@ header.masthead {
 }
 
 #regulations .FRAME_02{
-	padding: 18px 11px;
+	padding:6% 4%;
 }
 
 
@@ -683,12 +683,12 @@ h1:before {
 
 /* Content scroll start-手機 */
  #about .content-scroll, #awards .content-scroll, #sign-up .content-scroll{
-    height: 322px;
+    height: 49vh;
     overflow-y: scroll;
 }
 	 
  #regulations .content-scroll{
-    height: 230px;
+    height: 35vh;
 	overflow-y: scroll;
   }
 
@@ -840,7 +840,7 @@ header.masthead {
 	
 /* Content scroll start-平板 */
  #about .content-scroll, #awards .content-scroll, #sign-up .content-scroll{
-    height: 652px;
+    height: 656px;
     overflow-y: scroll;
 }
 	 
