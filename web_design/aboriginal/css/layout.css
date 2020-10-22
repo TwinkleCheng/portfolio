@@ -23,8 +23,8 @@
 	padding-top: 11px;
 	cursor: pointer;
 	border-radius: 5px;
-	top: 10px;
-	right: 10px;
+	top: 12px;
+	right: 12px;
 	box-shadow: 1px 1px 5px rgba(3,32,48,0.5); 
 	}
 
@@ -451,6 +451,24 @@ footer p{
 	display: none;
 }
 
+/* 向下一個section */
+.DOWN{
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: url(../images/next.svg) no-repeat center;
+	margin:0px auto;
+	margin-top: 24px;
+	filter:drop-shadow(0px 3px 5px rgba(3,32,48,0.3));
+}
+
+.DOWN:hover{
+	transition: all 0.2s ease-out;
+    transform: scale(1.1);
+	background: url(../images/next_index.svg) no-repeat center;
+}
+	
+	
 header.masthead a.DOWN_INDEX{
 	display: block;
 	width: 50px;
@@ -458,11 +476,15 @@ header.masthead a.DOWN_INDEX{
 	background: url(../images/next_index.svg) no-repeat center;
 	position:absolute;
 	right:44vw;
-	bottom: 50px;
+	bottom: 40px;
 	margin: 0px auto;
 }
 
-
+header.masthead a.DOWN_INDEX:hover{
+	transition: all 0.2s ease-out;
+    transform: scale(1.1);
+	background: url(../images/next.svg) no-repeat center;
+}
 	
 }
 /* 平板以下 end*/
@@ -549,10 +571,10 @@ header.masthead {
 }
 
 /* 手機 */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 575px) {
 header.masthead {
 	height: 100vh;
-	background: url(../images/header_767.png) no-repeat top #d0dfe6;
+	background: url(../images/header_575.png) no-repeat top #d0dfe6;
 	background-size:100% auto;
 }
  
@@ -598,8 +620,8 @@ header.masthead {
 
 .FRAME_01{
 	width:100%;
-	height:60vh;
-	background:url(../images/frame_bg01_t.png) no-repeat center top;
+	height:106vw;
+	background:url(../images/frame_bg01_es.png) no-repeat center top;
 	background-size: 100% auto;
 	filter:drop-shadow(3px 3px 10px rgba(3,32,48,0.3));
 	margin: 0px auto;
@@ -612,8 +634,8 @@ header.masthead {
 
 .FRAME_02{
 	width:100%;
-	height:44vh;
-	background:url(../images/frame_bg02_t.png) no-repeat center top;
+	height:78vw;
+	background:url(../images/frame_bg02_es.png) no-repeat center top;
 	background-size: 100% auto;
 	filter:drop-shadow(3px 3px 10px rgba(3,32,48,0.3));
 	margin: 0px auto;
@@ -623,9 +645,8 @@ header.masthead {
 	padding:6% 4%;
 }
 
-
 #awards .FRAME_02{
-	padding: 10px;
+	padding: 5%;
 }
 
 #about h5{
@@ -683,12 +704,12 @@ h1:before {
 
 /* Content scroll start-手機 */
  #about .content-scroll, #awards .content-scroll, #sign-up .content-scroll{
-    height: 49vh;
+    height: 88%;
     overflow-y: scroll;
 }
 	 
  #regulations .content-scroll{
-    height: 35vh;
+    height: 61vw;
 	overflow-y: scroll;
   }
 
@@ -753,7 +774,7 @@ footer p{
 
 
 
-/* 平板 */
+/* 大平板 */
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
 header.masthead {
@@ -764,7 +785,6 @@ header.masthead {
  
 	
 /* section bg */
-
 .BG_H2{
 	height: 65vh;
 }
@@ -774,12 +794,11 @@ header.masthead {
 }
 	
 	
-/* section-平板 */
-
+/* section-大平板 */
 .FRAME_01{
 	width:100%;
 	height: auto;
-	background: url(../images/frame_bg01_t.png) no-repeat center top;
+	background: url(../images/frame_bg01_md.png) no-repeat center top;
 	background-size: 100% auto;
 	filter:drop-shadow(3px 3px 10px rgba(3,32,48,0.3));
 }
@@ -792,7 +811,7 @@ header.masthead {
 .FRAME_02{
 	width: 100%;
 	height: auto;
-	background: url(../images/frame_bg02_t.png) no-repeat center top;
+	background: url(../images/frame_bg02_md.png) no-repeat center top;
 	background-size: 100% auto;
 	filter:drop-shadow(3px 3px 10px rgba(3,32,48,0.3));
 }
@@ -838,14 +857,14 @@ header.masthead {
 	
 }	
 	
-/* Content scroll start-平板 */
+/* Content scroll start-大平板 */
  #about .content-scroll, #awards .content-scroll, #sign-up .content-scroll{
-    height: 656px;
+    height: 86vw;
     overflow-y: scroll;
 }
 	 
  #regulations .content-scroll{
-    height: 450px;
+    height: 59vw;
 	overflow-y: scroll;
   }
 
@@ -897,6 +916,76 @@ footer p{
 }
 
 
+/* 小平板 */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+	
+header.masthead {
+	height: 100vh;
+	background: url(../images/header_576.png) no-repeat top #d0dfe6;
+	background-size:100% auto;
+}
+ 
+
+/* section-小平板 */
+.FRAME_01{
+	width:100%;
+	height:106vw;
+	background:url(../images/frame_bg01_sm.png) no-repeat center top;
+	background-size: 100% auto;
+	filter:drop-shadow(3px 3px 10px rgba(3,32,48,0.3));
+	margin: 0px auto;
+}
+
+#about .FRAME_01, #sign-up .FRAME_01{
+	padding:5%;
+}
+	
+
+.FRAME_02{
+	width:100%;
+	height:78vw;
+	background:url(../images/frame_bg02_sm.png) no-repeat center top;
+	background-size: 100% auto;
+	filter:drop-shadow(3px 3px 10px rgba(3,32,48,0.3));
+	margin: 0px auto;
+}
+
+#regulations .FRAME_02{
+	padding:6% 5%;
+}
+
+#awards .FRAME_02{
+	padding: 5%;
+}
+
+/* Content scroll start-小平板 */
+ #about .content-scroll, #awards .content-scroll, #sign-up .content-scroll{
+    height: 89%;
+    overflow-y: scroll;
+}
+	 
+ #regulations .content-scroll{
+    height: 63vw;
+	overflow-y: scroll;
+  }
+
+  #awards .content-scroll{
+    height: 198px;
+	overflow-y:hidden;
+  }
+  
+/* Content scroll end*/	
+	
+/* Nav tab start */	
+ .nav-tabs .nav-item.show .nav-link h5:before, .nav-tabs .nav-link.active h5:before {
+  content:none;
+  background:none;
+  padding-right: 0px;
+}
+
+/* Nav tab end */		
+
+}
 
 
 
