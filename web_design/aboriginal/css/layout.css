@@ -925,6 +925,7 @@ header.masthead {
 	background-size:100% auto;
 }
  
+	
 
 /* section-小平板 */
 .FRAME_01{
@@ -976,6 +977,9 @@ header.masthead {
   
 /* Content scroll end*/	
 	
+
+	
+	
 /* Nav tab start */	
  .nav-tabs .nav-item.show .nav-link h5:before, .nav-tabs .nav-link.active h5:before {
   content:none;
@@ -985,6 +989,43 @@ header.masthead {
 
 /* Nav tab end */		
 
+/* 聯絡我們 */
+.FRAME_03{
+	width: 100%;
+	height: auto;
+	background: url(../images/frame_bg03_t.png) no-repeat center top;
+	background-size: 100% auto;
+	filter:drop-shadow(3px 3px 10px rgba(3,32,48,0.3));
+}		
+	
+
+#contact .FRAME_03{
+	padding: 40px 50px;
+}
+	
+#contact p{
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 40px;
+	text-align:left;
+	
+}		
+	
+	
+/* section bg */
+.BG_H2{
+	height: 60vh;
+}
+
+.BG_H3{
+	height: 40vh;
+}
+		
+	
+	
+	
+	
+	
 }
 
 
