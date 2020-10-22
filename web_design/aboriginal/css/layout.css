@@ -390,6 +390,10 @@ h1:before {
   padding-right: 12px;
 }
 /* Nav tab end */
+.TEXT_COMING{
+	font-size: 50px;
+	color: #F71E35;
+	}	
 
 /* footer */
 footer{
@@ -535,7 +539,7 @@ header.masthead {
 }
 
 #awards .FRAME_02{
-	padding: 36px;
+	padding:29px;
 }
 
 /* 聯絡我們 */
@@ -563,9 +567,20 @@ header.masthead {
   }
 
   #awards .content-scroll{
-    height: 370px;
+    height: 32vw;
 	overflow-y:hidden;
   }	
+	
+/* margin*/
+.MARGIN_A{
+	display: block;
+	margin: 0px auto;
+	margin-top: -75px;
+	width: 200px;
+	height: auto;
+	padding-bottom: 10px;
+}
+	
 	
 	
 }
@@ -585,8 +600,13 @@ header.masthead {
 	margin-top: -30px;
 	width: 120px;
 	height: auto;
-	padding-bottom: 10px;
+	padding-bottom: 0px;
 }
+
+.TEXT_COMING{
+	font-size: 34px;
+	color: #F71E35;
+	}	
 
 /* 向上到頂端-手機 */
 #GOTOP{
@@ -714,7 +734,7 @@ h1:before {
   }
 
   #awards .content-scroll{
-    height: 198px;
+    height: 86%;
 	overflow-y:hidden;
   }
   
@@ -869,7 +889,7 @@ header.masthead {
   }
 
   #awards .content-scroll{
-    height: 450px;
+    height: 59vw;
 	overflow-y:hidden;
   }
   
@@ -971,7 +991,7 @@ header.masthead {
   }
 
   #awards .content-scroll{
-    height: 198px;
+    height: 62vw;
 	overflow-y:hidden;
   }
   
@@ -989,6 +1009,18 @@ header.masthead {
 
 /* Nav tab end */		
 
+/* margin*/
+.MARGIN_A{
+	display: block;
+	margin: 0px auto;
+	margin-top: 0px;
+	width: 200px;
+	height: auto;
+	padding-bottom: 10px;
+}
+
+	
+	
 /* 聯絡我們 */
 .FRAME_03{
 	width: 100%;
