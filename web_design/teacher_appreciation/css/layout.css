@@ -1,0 +1,274 @@
+/* ---reset.css--- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ---reset.css END--- */
+* {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+html {
+	font-family:Arial, Helvetica, SSS, sans-serif;
+	-webkit-text-size-adjust:none;
+
+}
+
+body {
+	background: url("../images/bg_main.jpg") center top no-repeat #6e1612;	
+}
+
+@font-face{
+	font-family: SSS;
+	src: url("../fonts/NotoSerifCJKtc-Regular_0.otf");
+}
+/* DeskTop First 桌機版優先 */
+main{
+	display: block;
+	width:800px;
+	margin: 0px auto;
+}
+
+header {
+	height:85px;
+}
+
+
+header h1{
+	text-indent:-9999px;
+	padding-right:30px;
+	padding-top: 22px;
+}
+
+header h1 a{
+	display:block;
+	width:84px;
+	height:17px;
+	float:right;
+	background-image:url("../images/logo.png");
+}
+
+
+
+
+nav{
+	display: block;
+	width: 620px;
+	height: 70px;
+	float:right;
+}
+
+.MENU{
+	width: 600px;
+	height: 41px;
+	
+}
+
+.MENU li{
+	float: left;
+
+}
+
+.MENU li a{
+	display: block;
+	width: 113px;
+	height: 41px;
+	background-image: url("../images/nav.png");
+	color:#FFF;
+	font-size: 13px;
+	font-weight:500;
+	text-decoration:none;
+	text-align: center;
+	line-height: 35px;
+	letter-spacing: 2px;
+	text-shadow:1px 1px 5px #333;
+}
+
+.MENU li a:hover{
+	background-image: url("../images/nav_h.png");
+}
+
+.MENU li a.ACTIVE{
+	background-image: url("../images/nav_h.png");	
+}
+
+article{
+	display: block;
+	width: 550px;
+	margin-left: 250px;
+	clear: both;
+}
+
+.Album_Frame{
+	display: block;
+	width: 500px;
+	height: 400px;
+	background-image: url("../images/album_frame.jpg");
+	clear: both;
+	
+}
+
+.Album{
+	display: block;
+	width: 400px;
+	height: 300px;
+	margin: 0px auto;
+	padding-top: 50px;
+}
+
+.T_BROWN{
+	color: #360403;
+	font-size: 12px;
+	line-height: 18px;
+	padding-left: 20px;
+	padding-top: 36px;
+}
+
+.IMG_MAP{
+	vertical-align:bottom;
+
+}
+
+.TABLE_L{
+	margin-top: 20px;
+	width: 95%;
+	font-size: 12px;
+	color: #333333;
+	text-align: center;
+	line-height: 20px;
+	vertical-align: middle;
+}
+
+.table thead th{
+            vertical-align: middle;
+        }
+
+
+
+article ol{
+	list-style-type:decimal;
+	padding-right: 24px;
+}
+
+article ol li{
+	color: #666;
+	font-size: 12px;
+	line-height: 24px;
+}
+
+.T_RED{
+	color: #990000;
+	font-weight: bold;
+}
+
+.MENU_T a{
+	display: block;
+	width: 111px;
+	height: 37px;
+	background-image:url("../images/meau2.png");
+	margin:0px auto;
+	color: #666;
+	text-decoration: none;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 37px;
+	letter-spacing: 2px;
+	text-shadow:1px 1px 5px #FFF;
+}
+
+.MENU_T a:hover{
+	background-image: url("../images/meau2_h.png");
+}
+
+
+.MENU2{
+	display: block;
+	width: 500px;
+	margin: 0px auto;
+	
+}
+
+.MENU2 li{
+	float: left;
+	margin-bottom: 10px;
+}
+
+.MENU2 li a{
+	display: block;
+	width: 111px;
+	height: 37px;
+	background-image: url("../images/meau2.png");
+	color: #666;
+	text-decoration: none;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 37px;
+	letter-spacing: 2px;
+	text-shadow:1px 1px 5px #FFF;
+	margin: 10px;
+}
+
+.MENU2 li a:hover{
+	background-image: url("../images/meau2_h.png");
+}
+
+.MENU2 li a.ACTIVE{
+	background-image: url("../images/meau2_h.png");
+}
+
+
+footer{
+	color: #4a0a08;
+	font-size: 12px;
+	line-height: 40px;
+	text-align: center;
+	text-shadow:1px 1px 5px #ccc;
+	border-top: 1px dashed #DEDEDE;
+	margin: 40px 0px 20px 0px;
+	width: 95%;
+}
+
+
