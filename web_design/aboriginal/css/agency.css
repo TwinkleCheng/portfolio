@@ -3,12 +3,13 @@
 body {
   overflow-x: hidden;
   font-family: Verdana, Helvetica, Arial, 'cwTeXYen', sans-serif;
+  background-color: #D0DFE6;
 }
 
 
 p {
   line-height: 1.5;
-	font-size: 20px;
+	font-size: 22px;
 	font-weight: 500;
 }
 
@@ -32,7 +33,7 @@ ol>li {
 }
 
 .bg-light {
-  background: #fff !important;
+  background:#fff !important;
 }
 
 .bg-primary {
@@ -47,7 +48,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  margin: 1rem 0;
+  margin: 0.5rem 0;
   line-height: 1.75rem;
 }
 
@@ -602,7 +603,7 @@ ul.news-content li {
 /* Contact end*/
 
 footer {
-  padding: 25px 0;
+  padding: 25px 0px 0px 0px;
   background: #D0DFE6;
   color: #032030;
 }

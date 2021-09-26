@@ -154,15 +154,15 @@ span.AAA, span.BBB, span.CCC {
 	width: 50px;
 	height: 50px;
 	background: url(../images/next.svg) no-repeat center;
-	margin:0px auto;
-	margin-top: 24px;
 	filter:drop-shadow(0px 3px 5px rgba(3,32,48,0.3));
+	margin: 40px auto;
 }
 
 .DOWN:hover{
 	transition: all 0.2s ease-out;
     transform: scale(1.1);
 	background: url(../images/next_index.svg) no-repeat center;
+	
 }
 
 header.masthead a.DOWN_INDEX{
@@ -203,17 +203,7 @@ header.masthead a.DOWN_INDEX:hover{
 
 /* section bg */
 
-.BG_H{
-	height: 100vh;
-}
 
-.BG_H2{
-	height: 70vh;
-}
-
-.BG_H3{
-	height: 30vh;
-}
 
 .CYAN{
 	background-color: #1794A5;
@@ -227,14 +217,14 @@ header.masthead a.DOWN_INDEX:hover{
 
 h1 {
   text-align: center;
-  margin-bottom: 3rem;
-  font-weight: 600;
+  line-height:1.5;
+
 }
 
 h1:before {
   content: '　 ';
   background: url(../images/before.svg) no-repeat center;
-  background-size: 20px auto;
+  background-size: 18px auto;
 }
 
 
@@ -265,16 +255,23 @@ h1:before {
 
 /* section-桌機版 */
 
+#about, #regulations, #sign-up, #awards{
+	width: 100%;
+	height: auto;
+	padding-bottom: 100px;
+	position: relative; 
+}
+
 .FRAME_01{
 	width: 1100px;
-	height: 613px;
-	background: url(../images/frame_bg01.png) no-repeat center top;
+	height: 600px;
+	background:url(../images/frame_bg01.png) no-repeat center top;
 	background-size: 100% auto;
-	filter:drop-shadow(3px 3px 10px rgba(3,32,48,0.3));
+	filter:drop-shadow(3px 3px 10px rgba(3,32,48,0.3)); 
 }
 
 #about .FRAME_01, #sign-up .FRAME_01{
-	padding: 28px;
+	padding: 18px;
 }
 
 .FRAME_02{
@@ -286,7 +283,7 @@ h1:before {
 }
 
 #regulations .FRAME_02{
-	padding: 44px 36px;
+	padding: 36px 28px;
 }
 
 #awards .FRAME_02{
@@ -295,12 +292,13 @@ h1:before {
 
 #about h5, #regulations h5{
 	font-size: 24px;
+	line-height: 1.5;
 }
 
 /* 聯絡我們 */
 .FRAME_03{
 	width: 1100px;
-	height: 378px;
+	height: 377px;
 	background: url(../images/frame_bg03.png) no-repeat center top;
 	background-size: 100% auto;
 	filter:drop-shadow(3px 3px 10px rgba(3,32,48,0.3));
@@ -322,7 +320,7 @@ h1:before {
 
 /* Content scroll start*/
  #about .content-scroll, #awards .content-scroll, #sign-up .content-scroll{
-    height: 540px;
+    height: 548px;
     overflow-y: scroll;
   }
 
@@ -344,7 +342,7 @@ h1:before {
   }
 
   #regulations .content-scroll{
-    height: 450px;
+    height: 465px;
 	overflow-y: scroll;
   }
 
@@ -388,7 +386,7 @@ h1:before {
   content: '　';
   background: url(../images/before.svg) no-repeat center ;
   background-size: 15px auto;
-  padding-right: 12px;
+  padding-right: 8px;
 }
 /* Nav tab end */
 .TEXT_COMING{
@@ -397,26 +395,22 @@ h1:before {
 	}	
 
 /* footer */
-footer{
-	position: relative;
-}
 
 .FOOTER_LOGO{
 	display: block;
-	height: 100px;
+	height: 80px;
 	width: auto;
-	margin-bottom: 15px;
+	margin-bottom: 40px;
 }
 
 footer p{
 	display: block;
 	width: 100%;
-	position: absolute;
-	bottom: 0px;
 	font-size: 15px;
-	line-height: 24px;
+	line-height: 1.8;
 	text-align: center;
-	padding: 0px 70px;
+	padding: 10px 20px 0px 20px;
+	
 }
 /* footer end*/
 
@@ -484,8 +478,8 @@ header.masthead a.DOWN_INDEX:hover{
 	
 header.masthead {
 	height: 100vh;
-	background: url(../images/header_1200.png) no-repeat left top #d0dfe6;
-	background-size:100% auto;
+	background: url(../images/header_1200.png) no-repeat center#d0dfe6;
+	background-size:cover;
 }
 	
 }
@@ -494,20 +488,20 @@ header.masthead {
 
 header.masthead {
 	height: 100vh;
-	background: url(../images/header_992.png) no-repeat left top #d0dfe6;
-	background-size:100% auto;
+	background: url(../images/header_992.png) no-repeat center #d0dfe6;
+	background-size: cover;
 }
 
 .FRAME_01{
 	width: 940px;
-	height: 523px;
+	height: 513px;
 	background: url(../images/frame_bg01.png) no-repeat center top;
 	background-size: 100% auto;
 	filter:drop-shadow(3px 3px 10px rgba(3,32,48,0.3));
 }
 	
 #about .FRAME_01, #sign-up .FRAME_01{
-	padding: 24px;
+	padding: 14px;
 }
 
 .FRAME_02{
@@ -519,7 +513,7 @@ header.masthead {
 }
 
 #regulations .FRAME_02{
-	padding: 36px 30px;
+	padding: 30px 22px;
 }
 
 #awards .FRAME_02{
@@ -541,12 +535,12 @@ header.masthead {
 	
 /* Content scroll start-小網頁*/
  #about .content-scroll, #awards .content-scroll, #sign-up .content-scroll{
-    height: 460px;
+    height: 468px;
     overflow-y: scroll;
   }
 	
   #regulations .content-scroll{
-    height: 385px;
+    height: 400px;
 	overflow-y: scroll;
   }
 
@@ -573,8 +567,8 @@ header.masthead {
 @media screen and (max-width: 575px) {
 header.masthead {
 	height: 100vh;
-	background: url(../images/header_575.png) no-repeat top #d0dfe6;
-	background-size:100% auto;
+	background: url(../images/header_575.png) no-repeat center top #d0dfe6;
+	background-size: cover;
 }
  
 /* 向下一個section */
@@ -583,11 +577,10 @@ header.masthead {
 	width: 50px;
 	height: 50px;
 	background: url(../images/next.svg) no-repeat center;
-	margin:0px auto;
-	margin-top: 0px;
 	filter:drop-shadow(0px 3px 5px rgba(3,32,48,0.3));
+	margin: 40px auto;
 }
-
+	
 .DOWN:hover{
 	transition: all 0.2s ease-out;
     transform: scale(1.1);
@@ -642,8 +635,8 @@ header.masthead {
 /* section-手機 */
 
 .FRAME_01{
-	width:100%;
-	height:101vw;
+	width:320px;
+	height:auto;
 	background:url(../images/frame_bg01_es.png) no-repeat center top;
 	background-size: 100% auto;
 	filter:drop-shadow(3px 3px 10px rgba(3,32,48,0.3));
@@ -651,12 +644,13 @@ header.masthead {
 }
 
 #about .FRAME_01, #sign-up .FRAME_01{
-	padding:3.5%;
+	padding:12px;
 }
 	
 
 .FRAME_02{
-	width:100%;
+	width:320px;
+	height: auto;
 	background:url(../images/frame_bg02_es.png) no-repeat center top;
 	background-size: 100% auto;
 	filter:drop-shadow(3px 3px 10px rgba(3,32,48,0.3));
@@ -664,13 +658,12 @@ header.masthead {
 }
 
 #regulations .FRAME_02{
-	padding:6% 4%;
-	height:80vw;
+	padding:20px 12px;
 }
 
 #awards .FRAME_02{
-	padding: 5%;
-	height:77vw;
+	padding:14px;
+	
 }
 
 #about h5{
@@ -688,10 +681,9 @@ header.masthead {
 
 h1 {
   text-align: center;
-  margin-top: -40px;
   margin-bottom: 1.5rem;
   font-weight: 600;
-	font-size: 30px;
+  font-size: 30px;
 	
 }
 
@@ -706,20 +698,21 @@ h1:before {
 	
 /* 聯絡我們 */
 .FRAME_03{
-	width: 100%;
+	width:320px;
 	height: auto;
-	background: url(../images/frame_bg03_t.png) no-repeat center top;
+	background: url(../images/frame_bg03_m.png) no-repeat center top;
 	background-size: 100% auto;
 	filter:drop-shadow(3px 3px 10px rgba(3,32,48,0.3));
+	margin: 0px auto;
 }		
 	
 
 #contact .FRAME_03{
-	padding: 30px;
+	padding: 28px;
 }
 	
 #contact p{
-	font-size: 15px;
+	font-size: 14px;
 	font-weight: 500;
 	line-height: 32px;
 	text-align:left;
@@ -728,17 +721,17 @@ h1:before {
 
 /* Content scroll start-手機 */
  #about .content-scroll, #awards .content-scroll, #sign-up .content-scroll{
-    height: 87%;
+    height: 283px;
     overflow-y: scroll;
 }
 	 
  #regulations .content-scroll{
-    height: 61vw;
+    height: 205px;
 	overflow-y: scroll;
   }
 
   #awards .content-scroll{
-    height: 86%;
+    height: 205px;
 	overflow-y:hidden;
   }
   
@@ -755,29 +748,24 @@ h1:before {
 
 	
 /* footer */
-footer{
-	position: relative;
-}
+
 
 .FOOTER_LOGO{
 	display: block;
-	height: 60px;
+	height: 80px;
 	width: auto;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: -10px;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 }
 
 footer p{
 	display: block;
 	width: 100%;
-	position: absolute;
-	bottom: 0px;
 	font-size: 15px;
-	line-height: 24px;
+	line-height: 1.8;
 	text-align: center;
-	padding: 0px 50px;
+	padding: 10px 20px 0px 20px;
 }
 /* footer end*/	
 	
@@ -803,8 +791,8 @@ footer p{
 
 header.masthead {
 	height: 100vh;
-	background: url(../images/header_768.png) no-repeat top #d0dfe6;
-	background-size:100% auto;
+	background: url(../images/header_768.png) no-repeat center top #d0dfe6;
+	background-size: cover;
 }
  
 /* 向下一個section */
@@ -813,11 +801,10 @@ header.masthead {
 	width: 50px;
 	height: 50px;
 	background: url(../images/next.svg) no-repeat center;
-	margin:0px auto;
-	margin-top: 30px;
 	filter:drop-shadow(0px 3px 5px rgba(3,32,48,0.3));
+	margin: 40px auto;
 }
-
+	
 .DOWN:hover{
 	transition: all 0.2s ease-out;
     transform: scale(1.1);
@@ -901,17 +888,17 @@ header.masthead {
 	
 /* Content scroll start-大平板 */
  #about .content-scroll, #awards .content-scroll, #sign-up .content-scroll{
-    height: 81vw;
+    height: 620px;
     overflow-y: scroll;
 }
 	 
  #regulations .content-scroll{
-    height: 59vw;
+    height: 444px;
 	overflow-y: scroll;
   }
 
   #awards .content-scroll{
-    height: 59vw;
+    height: 444px;
 	overflow-y:hidden;
   }
   
@@ -927,26 +914,21 @@ header.masthead {
 /* Nav tab end */	
 
 /* footer */
-footer{
-	position: relative;
-}
 
 .FOOTER_LOGO{
 	display: block;
-	height: 100px;
+	height: 80px;
 	width: auto;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 
 footer p{
 	display: block;
 	width: 100%;
-	position: absolute;
-	bottom: 0px;
 	font-size: 15px;
-	line-height: 24px;
+	line-height: 1.5;
 	text-align: center;
-	padding: 0px 70px;
+	padding: 10px 0px 0px 0px;
 }
 /* footer end*/	
 	
@@ -963,8 +945,8 @@ footer p{
 	
 header.masthead {
 	height: 100vh;
-	background: url(../images/header_576.png) no-repeat top #d0dfe6;
-	background-size:100% auto;
+	background: url(../images/header_576.png) no-repeat center top #d0dfe6;
+	background-size: cover;
 }
  
 /* 向下一個section */
@@ -973,9 +955,8 @@ header.masthead {
 	width: 50px;
 	height: 50px;
 	background: url(../images/next.svg) no-repeat center;
-	margin:0px auto;
-	margin-top: 0px;
 	filter:drop-shadow(0px 3px 5px rgba(3,32,48,0.3));
+	margin: 40px auto;
 }
 
 .DOWN:hover{
@@ -988,7 +969,7 @@ header.masthead {
 /* section-小平板 */
 .FRAME_01{
 	width:100%;
-	height:93vw;
+	height:auto;
 	background:url(../images/frame_bg01_md.png) no-repeat center top;
 	background-size: 100% auto;
 	filter:drop-shadow(3px 3px 10px rgba(3,32,48,0.3));
@@ -996,7 +977,7 @@ header.masthead {
 }
 
 #about .FRAME_01, #sign-up .FRAME_01{
-	padding:4.5%;
+	padding:24px;
 }
 	
 
@@ -1010,7 +991,7 @@ header.masthead {
 }
 
 #regulations .FRAME_02{
-	padding:6% 5%;
+	padding:32px 24px;
 }
 
 #awards .FRAME_02{
@@ -1019,17 +1000,17 @@ header.masthead {
 
 /* Content scroll start-小平板 */
  #about .content-scroll, #awards .content-scroll, #sign-up .content-scroll{
-    height: 89%;
+    height: 454px;
     overflow-y: scroll;
 }
 	 
  #regulations .content-scroll{
-    height:56.5vw;
+    height:330px;
 	overflow-y: scroll;
   }
 
   #awards .content-scroll{
-    height: 55vw;
+    height: 326px;
 	overflow-y:hidden;
   }
   
